@@ -1,0 +1,3 @@
+Name=WebConsole
+Description=Adds a console
+Version=1.0

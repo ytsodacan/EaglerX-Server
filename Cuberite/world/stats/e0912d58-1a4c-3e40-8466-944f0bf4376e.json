@@ -5,20 +5,20 @@
 		"custom" : 
 		{
 			"climb_one_cm" : 25,
-			"crouch_one_cm" : 281,
+			"crouch_one_cm" : 1080,
 			"damage_dealt" : 155,
-			"damage_taken" : 650,
+			"damage_taken" : 770,
 			"deaths" : 2,
 			"drop" : 12,
-			"fall_one_cm" : 18397,
-			"leave_game" : 5,
+			"fall_one_cm" : 27319,
+			"leave_game" : 7,
 			"mob_kills" : 1,
-			"play_one_minute" : 12456,
-			"sneak_time" : 91,
-			"sprint_one_cm" : 10000,
-			"time_since_death" : 1396,
+			"play_one_minute" : 14169,
+			"sneak_time" : 274,
+			"sprint_one_cm" : 12172,
+			"time_since_death" : 3109,
 			"walk_on_water_one_cm" : 495,
-			"walk_one_cm" : 19712
+			"walk_one_cm" : 29465
 		}
 	}
 }

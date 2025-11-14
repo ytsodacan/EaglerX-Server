@@ -19,3 +19,14 @@ Warn [23:44:08] Invalid biome ("BambooJungleHills") specified in AllowedBiomes i
      [23:44:08] Cannot load plugin, folder "ChatLog" not found.
      [23:44:08] -- No Plugins Loaded --
 Warn [23:44:10] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+     [23:44:10] Startup complete, took 1488ms!
+     [23:44:24] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [23:44:24] Player YTSodaCan has joined the game
+Info [23:44:55] Player YTSodaCan has left the game
+     [23:45:16] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [23:45:16] Player YTSodaCan has joined the game
+Info [23:45:19] Player YTSodaCan has left the game
+     [23:46:41] Shutting down server...
+     [23:46:41] Cleaning up...
+     [23:46:41] Shutdown successful!
+     [23:46:41] --- Stopped Log ---

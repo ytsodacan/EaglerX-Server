@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cuberite Web Console</title>
+</head>
+<body>
+<input type="text" id="cmd" placeholder="Enter command">
+<button onclick="sendCmd()">Send</button>
+<pre id="output"></pre>
+
+<script>
+async function sendCmd() {
+  let cmd = document.getElementById("cmd").value;
+  const resp = await fetch("/execute-command?cmd=" + encodeURIComponent(cmd));
+  const text = await resp.text();
+  document.getElementById("output").textContent += text + "\n";
+}
+</script>
+</body>
+</html>
