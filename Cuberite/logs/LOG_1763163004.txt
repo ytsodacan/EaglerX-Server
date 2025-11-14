@@ -1,0 +1,38 @@
+     [23:30:04] --- Started Log ---
+     [23:30:04] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [23:30:04] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [23:30:04] Creating new server instance...
+     [23:30:04] Reading server config...
+     [23:30:04] Starting server...
+Info [23:30:04] Compatible clients: 1.8.x-1.14.4
+Warn [23:30:04] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+     [23:30:04] Loaded 789 crafting recipes
+Warn [23:30:04] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [23:30:04] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [23:30:04] Loaded 1.12.2 380 recipe book
+     [23:30:04] Loaded 67 furnace recipes and 66 fuels
+     [23:30:04] Loaded 49 brewing recipes
+Warn [23:30:04] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [23:30:04] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [23:30:04] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [23:30:04] Failed to load scoreboard from "world_nether/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [23:30:04] Failed to load scoreboard from "world_the_end/data/scoreboard.dat": basic_ios::clear: iostream error
+     [23:30:04] -- Loading Plugins --
+     [23:30:04] Cannot load plugin, folder "Core" not found.
+     [23:30:04] Cannot load plugin, folder "ChatLog" not found.
+     [23:30:04] -- No Plugins Loaded --
+Warn [23:30:06] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+     [23:30:06] Startup complete, took 1713ms!
+     [23:31:35] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [23:31:35] Player "YTSodaCan" (e0912d581a4c3e408466944f0bf4376e) save or statistics file not found, resetting to defaults
+Info [23:31:35] Player YTSodaCan has joined the game
+Warn [23:31:35] AddEntity: Entity at 0x7a47b40156b0 (cPlayer, ID 96) spawning in a non-existent chunk.
+     [23:32:19] Executing console command: "op ytsodacan"
+     [23:32:19] Unknown command, type 'help' for all commands.
+     [23:32:50] Executing console command: "op"
+     [23:32:50] Unknown command, type 'help' for all commands.
+     [23:36:10] Shutting down server...
+Info [23:36:10] Player YTSodaCan has left the game
+     [23:36:10] Cleaning up...
+     [23:36:10] Shutdown successful!
+     [23:36:10] --- Stopped Log ---
