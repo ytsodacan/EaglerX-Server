@@ -90,11 +90,11 @@
 			"ID" : -1
 		}
 	],
-	"equippedItemSlot" : 1,
+	"equippedItemSlot" : 3,
 	"food" : 20,
-	"foodExhaustion" : 3.5892499999999989,
+	"foodExhaustion" : 1.0214999999999992,
 	"foodSaturation" : 5.0,
-	"foodTickTimer" : 8,
+	"foodTickTimer" : 38,
 	"gamemode" : -1,
 	"health" : 20.0,
 	"inventory" : 
@@ -208,31 +208,46 @@
 			"ID" : -1
 		},
 		{
-			"Count" : 3,
+			"Count" : 1,
 			"Health" : 0,
-			"ID" : 17,
+			"ID" : 289,
 			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
+			"Count" : 1,
+			"Health" : 3,
+			"ID" : 1,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 295,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 27,
+			"Health" : 0,
+			"ID" : 3,
+			"RepairCost" : 0
 		},
 		{
 			"Count" : 2,
-			"Health" : 0,
-			"ID" : 6,
+			"Health" : 5,
+			"ID" : 38,
 			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
+			"Count" : 11,
+			"Health" : 0,
+			"ID" : 4,
+			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
-		},
-		{
-			"ID" : -1
-		},
-		{
-			"ID" : -1
+			"Count" : 4,
+			"Health" : 0,
+			"ID" : 280,
+			"RepairCost" : 0
 		},
 		{
 			"ID" : -1
@@ -249,8 +264,20 @@
 	[
 		{
 			"Count" : 1,
+			"Health" : 3,
+			"ID" : 1,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
 			"Health" : 0,
 			"ID" : 3,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 4,
 			"RepairCost" : 0
 		},
 		{
@@ -267,26 +294,75 @@
 		},
 		{
 			"Count" : 1,
+			"Health" : 3,
+			"ID" : 38,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 5,
+			"ID" : 38,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 7,
+			"ID" : 38,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 280,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 289,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
 			"Health" : 0,
 			"ID" : 295,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 319,
 			"RepairCost" : 0
 		}
 	],
 	"knownRecipes" : 
 	[
-		"oak_planks"
+		"furnace",
+		"oak_planks",
+		"andesite",
+		"polished_diorite",
+		"cobblestone_slab",
+		"stone_stairs",
+		"stone_axe",
+		"stone_pickaxe",
+		"stone_shovel",
+		"stone_hoe",
+		"stone_sword",
+		"lever",
+		"cobblestone_wall",
+		"ladder"
 	],
 	"lastknownname" : "YTSodaCan",
 	"position" : 
 	[
-		-30.300000011920929,
-		62.0,
-		7.3000000119209307
+		-9.3000000119209272,
+		68.0,
+		6.3050619657266687
 	],
 	"rotation" : 
 	[
-		-148.65000915527344,
-		-33.000011444091797,
+		109.49986267089844,
+		23.700010299682617,
 		0.0
 	],
 	"world" : "world",
