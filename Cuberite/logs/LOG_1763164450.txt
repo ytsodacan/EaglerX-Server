@@ -26,3 +26,10 @@ Info [23:54:12] WebAdmin is running on port(s) 9098
      [23:54:34] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
 Info [23:54:34] Player YTSodaCan has joined the game
 Warn [23:54:34] AddEntity: Entity at 0x76ec7c0156b0 (cPlayer, ID 123) spawning in a non-existent chunk.
+Info [23:55:57] Player YTSodaCan has left the game
+     [23:56:44] Executing console command: "op"
+     [23:56:44] Unknown command, type 'help' for all commands.
+     [23:58:38] Shutting down server...
+     [23:58:38] Cleaning up...
+     [23:58:38] Shutdown successful!
+     [23:58:38] --- Stopped Log ---
