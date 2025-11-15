@@ -1,0 +1,62 @@
+     [03:10:11] --- Started Log ---
+     [03:10:11] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:10:11] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:10:11] Creating new server instance...
+     [03:10:11] Reading server config...
+     [03:10:11] Starting server...
+Info [03:10:11] Compatible clients: 1.8.x-1.14.4
+Warn [03:10:11] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:10:11] WebServer: The server will run in unsecured HTTP mode.
+Info [03:10:11] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:10:11] Loaded 789 crafting recipes
+Warn [03:10:11] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:10:11] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:10:11] Loaded 1.12.2 380 recipe book
+     [03:10:11] Loaded 67 furnace recipes and 66 fuels
+     [03:10:11] Loaded 49 brewing recipes
+Warn [03:10:11] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:10:11] Cannot read world settings from "world/world.ini", defaults will be used.
+Info [03:10:11] Chosen a new random seed for world: 286090089
+Warn [03:10:11] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:10:11] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [03:10:11] -- Loading Plugins --
+     [03:10:12] [Core] Core plugin fully initialized!
+Info [03:10:12] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:10:12] Stack trace:
+Warn [03:10:12]   [C](-1): AddHook
+Warn [03:10:12]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:10:12] Stack trace end
+     [03:10:12] [ChatLog] Initialized ChatLog v.3
+     [03:10:12] -- Loaded 2 Plugins --
+     [03:10:13] Preparing spawn (world): 25.50% (102/400; 99.90 chunks / sec)
+     [03:10:14] Preparing spawn (world): 63.50% (254/400; 150.05 chunks / sec)
+     [03:10:15] Preparing spawn (world): 94.50% (378/400; 123.88 chunks / sec)
+Info [03:10:15] World "world":Generated spawnpoint position at {8, 71, 8}
+Warn [03:10:16] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [03:10:16] WebAdmin is running on port(s) 9098
+     [03:10:16] Startup complete, took 4151ms!
+     [03:10:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [03:10:20] Player "YTSodaCan" (e0912d581a4c3e408466944f0bf4376e) save or statistics file not found, resetting to defaults
+Info [03:10:20] Player YTSodaCan has joined the game
+     [03:10:31] Executing console command: "load Login"
+     [03:10:31] [Login] Login is initialized
+     [03:10:31] Plugin loaded
+     [03:10:34] Executing console command: "load arena"
+     [03:10:34] [MCArena Release] Initialized MCArena Release v1.2
+     [03:10:34] Plugin loaded
+     [03:10:41] Player YTSodaCan is executing command "/gamemode c" in world "world" at world age 574.
+     [03:10:41] [Core] Gamemode of YTSodaCan set to creative by: YTSodaCan
+     [03:10:59] Player YTSodaCan is executing command "/fill" in world "world" at world age 934.
+Info [03:10:59] Player YTSodaCan issued an unknown command: "/fill"
+     [03:12:04] Executing console command: "load WorldEdit"
+Warn [03:12:04] [WorldEdit] Default configuration written to "Plugins/WorldEdit/config.cfg"
+Warn [03:12:04] [WorldEdit] The default configuration will be used.
+     [03:12:04] [WorldEdit] Enabling v0.1.18
+     [03:12:04] Plugin loaded
+Info [03:12:04] [WorldEdit] Your WorldEdit plugin is up-to-date
+Info [03:12:54] Player YTSodaCan has left the game
+     [03:19:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:19:14] Player YTSodaCan has joined the game
+Warn [03:19:14] AddEntity: Entity at 0x7d6a500576f0 (cPlayer, ID 195) spawning in a non-existent chunk.
+Err  [03:19:16] Value u in AddChatPartStyle() is deprecated
+Err  [03:19:19] Value u in AddChatPartStyle() is deprecated

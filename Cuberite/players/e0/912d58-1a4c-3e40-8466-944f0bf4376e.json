@@ -90,13 +90,13 @@
 			"ID" : -1
 		}
 	],
-	"equippedItemSlot" : 0,
-	"food" : 17,
-	"foodExhaustion" : 1.6948000715255667,
-	"foodSaturation" : 0.0,
-	"foodTickTimer" : 0,
-	"gamemode" : -1,
-	"health" : 14.0,
+	"equippedItemSlot" : 5,
+	"food" : 20,
+	"foodExhaustion" : 0.0,
+	"foodSaturation" : 5.0,
+	"foodTickTimer" : 35,
+	"gamemode" : 1,
+	"health" : 20.0,
 	"inventory" : 
 	[
 		{
@@ -208,19 +208,34 @@
 			"ID" : -1
 		},
 		{
-			"ID" : -1
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 276,
+			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
+			"Count" : 1,
+			"Health" : 5,
+			"ID" : 1,
+			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 280,
+			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
+			"Count" : 1,
+			"Health" : 2,
+			"ID" : 18,
+			"RepairCost" : 0
 		},
 		{
-			"ID" : -1
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 54,
+			"RepairCost" : 0
 		},
 		{
 			"ID" : -1
@@ -304,6 +319,18 @@
 		{
 			"Count" : 1,
 			"Health" : 0,
+			"ID" : 262,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 264,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
 			"ID" : 271,
 			"RepairCost" : 0
 		},
@@ -316,7 +343,19 @@
 		{
 			"Count" : 1,
 			"Health" : 0,
+			"ID" : 276,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
 			"ID" : 280,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 285,
 			"RepairCost" : 0
 		},
 		{
@@ -340,6 +379,24 @@
 		{
 			"Count" : 1,
 			"Health" : 0,
+			"ID" : 338,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 344,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 352,
+			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
 			"ID" : 367,
 			"RepairCost" : 0
 		}
@@ -352,46 +409,59 @@
 		"stick",
 		"crafting_table",
 		"andesite",
+		"diamond_block",
 		"polished_diorite",
 		"cobblestone_slab",
 		"oak_slab",
 		"stone_stairs",
 		"oak_stairs",
+		"diamond_axe",
 		"stone_axe",
 		"wooden_axe",
+		"diamond_pickaxe",
 		"stone_pickaxe",
 		"wooden_pickaxe",
+		"diamond_shovel",
 		"stone_shovel",
 		"wooden_shovel",
+		"diamond_hoe",
 		"stone_hoe",
 		"wooden_hoe",
+		"diamond_sword",
 		"stone_sword",
 		"wooden_sword",
+		"diamond_helmet",
+		"diamond_chestplate",
+		"diamond_leggings",
+		"diamond_boots",
 		"oak_boat",
+		"jukebox",
 		"lever",
 		"oak_trapdoor",
 		"oak_button",
 		"bowl",
+		"sugar",
 		"cobblestone_wall",
 		"oak_fence",
 		"oak_fence_gate",
 		"ladder",
+		"paper",
 		"oak_sign"
 	],
 	"lastknownname" : "YTSodaCan",
 	"position" : 
 	[
-		45.784294847664569,
-		71.0,
-		-57.109381197962492
+		135.7975027894249,
+		129.0,
+		1100.1453230388133
 	],
 	"rotation" : 
 	[
-		-25.800048828125,
-		61.049999237060547,
+		12.427745819091797,
+		49.049995422363281,
 		0.0
 	],
 	"world" : "world",
-	"xpCurrent" : 6,
-	"xpTotal" : 6
+	"xpCurrent" : 17,
+	"xpTotal" : 17
 }

@@ -1,0 +1,271 @@
+     [03:45:10] --- Started Log ---
+     [03:45:10] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:45:10] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:45:10] Creating new server instance...
+     [03:45:10] Reading server config...
+     [03:45:10] Starting server...
+Info [03:45:10] Compatible clients: 1.8.x-1.14.4
+Warn [03:45:10] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:45:10] WebServer: The server will run in unsecured HTTP mode.
+Info [03:45:10] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:45:10] Loaded 789 crafting recipes
+Warn [03:45:10] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:45:10] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:45:10] Loaded 1.12.2 380 recipe book
+     [03:45:10] Loaded 67 furnace recipes and 66 fuels
+     [03:45:10] Loaded 49 brewing recipes
+Warn [03:45:10] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:45:10] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:45:10] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [03:45:10] -- Loading Plugins --
+     [03:45:10] [Core] Core plugin fully initialized!
+Info [03:45:10] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:45:10] Stack trace:
+Warn [03:45:10]   [C](-1): AddHook
+Warn [03:45:10]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:45:10] Stack trace end
+     [03:45:10] [ChatLog] Initialized ChatLog v.3
+     [03:45:10] -- Loaded 2 Plugins --
+     [03:45:12] Preparing spawn (world_nether): 64.25% (257/400; 242.22 chunks / sec)
+Warn [03:45:12] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [03:45:12] WebAdmin is running on port(s) 9098
+     [03:45:12] Startup complete, took 2365ms!
+     [03:45:17] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:45:17] Player YTSodaCan has joined the game
+Warn [03:45:17] AddEntity: Entity at 0x740be4015340 (cPlayer, ID 119) spawning in a non-existent chunk.
+     [03:45:24] Player YTSodaCan is executing command "/kill @a" in world "world" at world age 267.
+     [03:45:26] Player YTSodaCan is executing command "/kill" in world "world" at world age 320.
+     [03:45:41] Player YTSodaCan is executing command "/killall" in world "world" at world age 607.
+Info [03:45:41] Player YTSodaCan issued an unknown command: "/killall"
+     [03:45:47] Player YTSodaCan is executing command "/kill mobs" in world "world" at world age 734.
+     [03:45:52] Player YTSodaCan is executing command "/wipemobs" in world "world" at world age 825.
+Info [03:45:52] Player YTSodaCan issued an unknown command: "/wipemobs"
+     [03:45:59] Player YTSodaCan is executing command "/tickingarea removeall" in world "world" at world age 967.
+Info [03:45:59] Player YTSodaCan issued an unknown command: "/tickingarea removeall"
+     [03:46:43] Player YTSodaCan is executing command "/wipemobs" in world "world" at world age 1835.
+Info [03:46:43] Player YTSodaCan issued an unknown command: "/wipemobs"
+     [03:46:57] Player YTSodaCan is executing command "/tp 100 100 1000" in world "world" at world age 2119.
+Info [03:49:47] Player YTSodaCan has left the game
+     [03:51:31] Executing console command: "load itemq"
+     [03:51:31] [ChestMenu] ChestMenu loaded
+     [03:51:31] Plugin loaded
+     [03:51:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:51:51] Player YTSodaCan has joined the game
+Warn [03:51:51] AddEntity: Entity at 0x740be40fe0e0 (cPlayer, ID 292) spawning in a non-existent chunk.
+     [03:51:54] Player YTSodaCan is executing command "/give stick" in world "world" at world age 8020.
+     [03:51:56] Player YTSodaCan is executing command "/give stick 1" in world "world" at world age 8066.
+     [03:52:02] Player YTSodaCan is executing command "/give ytsodacan stick 1" in world "world" at world age 8184.
+     [03:52:02] [Core] YTSodaCan: Given [ stick ] x 1 to YTSodaCan
+Warn [03:52:03] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:03] Stack trace:
+Warn [03:52:03]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:03] Stack trace end
+Warn [03:52:03] Error in <attached> calling function <callback>()
+Warn [03:52:04] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:04] Stack trace:
+Warn [03:52:04]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:04] Stack trace end
+Warn [03:52:04] Error in <attached> calling function <callback>()
+Warn [03:52:04] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:04] Stack trace:
+Warn [03:52:04]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:04] Stack trace end
+Warn [03:52:04] Error in <attached> calling function <callback>()
+Warn [03:52:05] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:05] Stack trace:
+Warn [03:52:05]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:05] Stack trace end
+Warn [03:52:05] Error in <attached> calling function <callback>()
+Warn [03:52:05] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:05] Stack trace:
+Warn [03:52:05]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:05] Stack trace end
+Warn [03:52:05] Error in <attached> calling function <callback>()
+Warn [03:52:05] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:05] Stack trace:
+Warn [03:52:05]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:05] Stack trace end
+Warn [03:52:05] Error in <attached> calling function <callback>()
+Warn [03:52:05] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:05] Stack trace:
+Warn [03:52:05]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:05] Stack trace end
+Warn [03:52:05] Error in <attached> calling function <callback>()
+Warn [03:52:08] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:08] Stack trace:
+Warn [03:52:08]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:08] Stack trace end
+Warn [03:52:08] Error in <attached> calling function <callback>()
+Warn [03:52:08] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:08] Stack trace:
+Warn [03:52:08]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:08] Stack trace end
+Warn [03:52:08] Error in <attached> calling function <callback>()
+Warn [03:52:08] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:08] Stack trace:
+Warn [03:52:08]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:08] Stack trace end
+Warn [03:52:08] Error in <attached> calling function <callback>()
+     [03:52:46] Executing console command: "reload"
+     [03:52:46] -- Loading Plugins --
+     [03:52:46] [Core] Core plugin disabled
+     [03:52:46] [Core] Core plugin fully initialized!
+Info [03:52:46] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:52:46] Stack trace:
+Warn [03:52:46]   [C](-1): AddHook
+Warn [03:52:46]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:52:46] Stack trace end
+     [03:52:46] [ChatLog] Initialized ChatLog v.3
+     [03:52:46] -- Loaded 2 Plugins --
+     [03:52:53] Executing console command: "load itemq"
+     [03:52:53] [ChestMenu] ChestMenu loaded
+     [03:52:53] Plugin loaded
+Warn [03:52:57] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:57] Stack trace:
+Warn [03:52:57]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:57] Stack trace end
+Warn [03:52:57] Error in <attached> calling function <callback>()
+Warn [03:52:57] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:57] Stack trace:
+Warn [03:52:57]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:57] Stack trace end
+Warn [03:52:57] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:58] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:58] Stack trace:
+Warn [03:52:58]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:58] Stack trace end
+Warn [03:52:58] Error in <attached> calling function <callback>()
+Warn [03:52:59] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:59] Stack trace:
+Warn [03:52:59]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:59] Stack trace end
+Warn [03:52:59] Error in <attached> calling function <callback>()
+Warn [03:52:59] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:59] Stack trace:
+Warn [03:52:59]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:59] Stack trace end
+Warn [03:52:59] Error in <attached> calling function <callback>()
+Warn [03:52:59] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:52:59] Stack trace:
+Warn [03:52:59]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:52:59] Stack trace end
+Warn [03:52:59] Error in <attached> calling function <callback>()
+Warn [03:53:00] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:00] Stack trace:
+Warn [03:53:00]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:00] Stack trace end
+Warn [03:53:00] Error in <attached> calling function <callback>()
+Warn [03:53:00] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:00] Stack trace:
+Warn [03:53:00]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:00] Stack trace end
+Warn [03:53:00] Error in <attached> calling function <callback>()
+Warn [03:53:00] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:00] Stack trace:
+Warn [03:53:00]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:00] Stack trace end
+Warn [03:53:00] Error in <attached> calling function <callback>()
+Warn [03:53:00] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:00] Stack trace:
+Warn [03:53:00]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:00] Stack trace end
+Warn [03:53:00] Error in <attached> calling function <callback>()
+Warn [03:53:01] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:01] Stack trace:
+Warn [03:53:01]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:01] Stack trace end
+Warn [03:53:01] Error in <attached> calling function <callback>()
+Warn [03:53:01] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:01] Stack trace:
+Warn [03:53:01]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:01] Stack trace end
+Warn [03:53:01] Error in <attached> calling function <callback>()
+Warn [03:53:01] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:01] Stack trace:
+Warn [03:53:01]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:01] Stack trace end
+Warn [03:53:01] Error in <attached> calling function <callback>()
+Warn [03:53:01] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:01] Stack trace:
+Warn [03:53:01]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:01] Stack trace end
+Warn [03:53:01] Error in <attached> calling function <callback>()
+Warn [03:53:01] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:01] Stack trace:
+Warn [03:53:01]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:01] Stack trace end
+Warn [03:53:01] Error in <attached> calling function <callback>()
+Warn [03:53:01] LUA: Plugins/itemq/main.lua:25: attempt to index local 'Item' (a nil value)
+Warn [03:53:01] Stack trace:
+Warn [03:53:01]   Plugins/itemq/main.lua(25): (no name)
+Warn [03:53:01] Stack trace end
+Warn [03:53:01] Error in <attached> calling function <callback>()
+Info [03:54:30] Player YTSodaCan has left the game
+     [03:55:47] Executing console command: "reload"
+     [03:55:47] -- Loading Plugins --
+     [03:55:47] [Core] Core plugin disabled
+     [03:55:47] [Core] Core plugin fully initialized!
+Info [03:55:47] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:55:47] Stack trace:
+Warn [03:55:47]   [C](-1): AddHook
+Warn [03:55:47]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:55:47] Stack trace end
+     [03:55:47] [ChatLog] Initialized ChatLog v.3
+     [03:55:47] -- Loaded 2 Plugins --
+     [03:55:52] Executing console command: "load itemq"
+     [03:55:52] [ChestMenu] ChestMenu loaded
+     [03:55:52] Plugin loaded
+     [03:55:56] Executing console command: "load arena"
+     [03:55:56] [MCArena Release] Initialized MCArena Release v1.2
+     [03:55:56] Plugin loaded
+     [03:56:01] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:56:01] Player YTSodaCan has joined the game
+Warn [03:56:01] AddEntity: Entity at 0x740be4336f40 (cPlayer, ID 325) spawning in a non-existent chunk.
+     [03:57:41] Player YTSodaCan is executing command "/give YourName 280 1" in world "world" at world age 14920.
+     [03:57:48] Player YTSodaCan is executing command "/give YTSodaCan 280 1" in world "world" at world age 15051.
+     [03:57:48] [Core] YTSodaCan: Given [ stick ] x 1 to YTSodaCan
+     [03:58:54] Executing console command: "load itemq"
+     [03:58:54] Plugin loaded
+Info [03:59:17] Kicking player YTSodaCan for "Server shutdown"
+Info [03:59:17] Player YTSodaCan has left the game
+     [03:59:18] Shutting down server...
+     [03:59:19] [MCArena Release] Disabled MCArena Release!
+     [03:59:19] [Core] Core plugin disabled
+     [03:59:19] Cleaning up...
+     [03:59:19] Shutdown successful!
+     [03:59:19] --- Stopped Log ---

@@ -1,0 +1,24 @@
+     [03:08:43] --- Started Log ---
+     [03:08:43] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:08:43] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:08:43] Creating new server instance...
+     [03:08:43] Reading server config...
+     [03:08:43] Starting server...
+Info [03:08:43] Compatible clients: 1.8.x-1.14.4
+Warn [03:08:43] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:08:43] WebServer: The server will run in unsecured HTTP mode.
+Info [03:08:43] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:08:43] Loaded 789 crafting recipes
+Warn [03:08:43] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:08:43] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:08:43] Loaded 1.12.2 380 recipe book
+     [03:08:43] Loaded 67 furnace recipes and 66 fuels
+     [03:08:43] Loaded 49 brewing recipes
+Warn [03:08:43] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:08:43] Cannot read world settings from "world/world.ini", defaults will be used.
+Info [03:08:43] Chosen a new random seed for world: 1995341752
+Warn [03:08:43] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:08:43] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:08:43] DeadlockDetect: Some CS objects (2) haven't been removed from tracking
+Warn [03:08:43]   CS 0x779c01d39588 / World world chunkmap
+Warn [03:08:43]   CS 0x779c0248abc8 / World world tasks

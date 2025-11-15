@@ -1,43 +1,41 @@
 #!/bin/bash
 
-# Eaglercraft Server Launcher - headless, no auto-restart
+# Eaglercraft Full Launcher - tmux sessions
 
 unset DISPLAY
 
-# Kill previous tmux session, Java, and Cloudflared processes
-tmux has-session -t server 2>/dev/null && tmux kill-session -t server
-pkill -9 java 2>/dev/null
-pkill -9 cloudflared 2>/dev/null
+# --------------------------
+# 1. Start Cloudflared tunnels
+# --------------------------
+tmux new-session -d -s tunnels "bash -c './tunnel.sh; exec bash'"
+echo "Cloudflared tunnels running in tmux session 'tunnels'."
 
-# Enable tmux mouse support silently
-echo "set -g mouse on" > ~/.tmux.conf
+# --------------------------
+# 2. Start Cuberite server
+# --------------------------
+tmux new-session -d -s cuberite "bash -c 'cd ./Cuberite && chmod +x Cuberite && ./Cuberite; exec bash'"
+echo "Cuberite server running in tmux session 'cuberite'."
 
-# Start Caddy
-if [ -d "./Caddy" ]; then
-  (cd ./Caddy && caddy stop >/dev/null 2>&1 && nohup caddy start --config ./Caddyfile >/dev/null 2>&1 &) 
-fi
+# --------------------------
+# 3. Start Eaglercraft Relay
+# --------------------------
+tmux new-session -d -s relay "bash -c 'java -jar ./EaglerSPRelay.jar --debug; exec bash'"
+echo "Eaglercraft relay running in tmux session 'relay'."
 
-# Start Cuberite
-if [ -d "./Cuberite" ]; then
-  (cd ./Cuberite && chmod +x Cuberite && nohup ./Cuberite >/dev/null 2>&1 &) 
-fi
+# --------------------------
+# 4. Start Bungee/Waterfall
+# --------------------------
+tmux new-session -d -s bungee "bash -c 'cd ./Bungee && java -Xmx128M -Xms128M -jar bungee.jar; exec bash'"
+echo "Bungee/Waterfall running in tmux session 'bungee'."
 
-# Start Bungee/Waterfall
-if [ -d "./Bungee" ]; then
-  (cd ./Bungee && nohup java -Xmx128M -Xms128M -jar bungee.jar >/dev/null 2>&1 &) 
-fi
-
-# Start Cloudflared tunnels
-cloudflared_tunnel_tokens=(
-  "eyJhIjoiZjBhOTg0MWYyYmVlZmIyOWUzNmJhOTg4ODBiMmM1NDAiLCJ0IjoiZTBkMDg4MDQtOWY3NS00YmE4LWE1MjgtZjRmODgyOGQwMDc4IiwicyI6Ik1tVTFOREExTXpBdFlqYzNaUzAwWXpsbUxUa3lOemN0WkdZelptVmlNMlkyTURaaCJ9"
-  "eyJhIjoiZjBhOTg0MWYyYmVlZmIyOWUzNmJhOTg4ODBiMmM1NDAiLCJ0IjoiNTQ0ZjE5ZWMtMmM4MC00OWIyLWIwNDYtNDczNTkxODdiMmRjIiwicyI6Ik9EQTFaams0T0RFdFlqTmlNaTAwTWpobExUaG1Zamd0TWpGbE56SmpNVGRpTlRoaiJ9"
-)
-
-for token in "${cloudflared_tunnel_tokens[@]}"; do
-  nohup cloudflared tunnel run --token "$token" >/dev/null 2>&1 &
-done
-
-# Start Eaglercraft Relay
-nohup java -jar EaglerSPRelay.jar --debug >/dev/null 2>&1 &
-
-echo "All services started in background. No auto-restart."
+# --------------------------
+# Summary
+# --------------------------
+echo ""
+echo "All services started in tmux sessions:"
+echo "  tunnels  -> Cloudflared tunnels"
+echo "  cuberite -> Cuberite server"
+echo "  relay    -> Eaglercraft relay"
+echo "  bungee   -> Bungee/Waterfall"
+echo ""
+echo "Attach to any session with: tmux attach -t <session_name>"

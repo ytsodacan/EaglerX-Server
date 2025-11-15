@@ -1,0 +1,64 @@
+     [03:38:12] --- Started Log ---
+     [03:38:12] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:38:12] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:38:12] Creating new server instance...
+     [03:38:12] Reading server config...
+     [03:38:12] Starting server...
+Info [03:38:12] Compatible clients: 1.8.x-1.14.4
+Warn [03:38:12] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:38:12] WebServer: The server will run in unsecured HTTP mode.
+Info [03:38:12] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:38:12] Loaded 789 crafting recipes
+Warn [03:38:12] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:38:12] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:38:12] Loaded 1.12.2 380 recipe book
+     [03:38:12] Loaded 67 furnace recipes and 66 fuels
+     [03:38:12] Loaded 49 brewing recipes
+Warn [03:38:12] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:38:12] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:38:12] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [03:38:12] -- Loading Plugins --
+     [03:38:13] [Core] Core plugin fully initialized!
+Info [03:38:13] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:38:13] Stack trace:
+Warn [03:38:13]   [C](-1): AddHook
+Warn [03:38:13]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:38:13] Stack trace end
+     [03:38:13] [ChatLog] Initialized ChatLog v.3
+     [03:38:13] -- Loaded 2 Plugins --
+     [03:38:14] Preparing spawn (world_nether): 83.00% (332/400; 332.00 chunks / sec)
+Warn [03:38:14] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [03:38:15] WebAdmin is running on port(s) 9098
+     [03:38:15] Startup complete, took 2323ms!
+     [03:38:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:38:25] Player YTSodaCan has joined the game
+Warn [03:38:25] AddEntity: Entity at 0x72e380016840 (cPlayer, ID 119) spawning in a non-existent chunk.
+     [03:38:54] Player YTSodaCan is executing command "/tp @s 100 100 1000" in world "world" at world age 827.
+     [03:38:58] Player YTSodaCan is executing command "/tp 100 100 1000" in world "world" at world age 907.
+     [03:39:23] Executing console command: "load WorldEdit"
+     [03:39:23] [WorldEdit] Enabling v0.1.18
+     [03:39:23] Plugin loaded
+Info [03:39:23] [WorldEdit] Your WorldEdit plugin is up-to-date
+     [03:39:32] Player YTSodaCan is executing command "//schematic load schem" in world "world" at world age 1572.
+     [03:39:36] Player YTSodaCan is executing command "//paste" in world "world" at world age 1660.
+     [03:40:26] Player YTSodaCan is executing command "//paste" in world "world" at world age 2640.
+     [03:41:30] Executing console command: "load arena"
+     [03:41:30] [MCArena Release] Initialized MCArena Release v1.2
+     [03:41:30] Plugin loaded
+     [03:42:04] Player YTSodaCan is executing command "/mca" in world "world" at world age 4585.
+     [03:42:12] Player YTSodaCan is executing command "/mca create arena" in world "world" at world age 4743.
+     [03:42:21] Player YTSodaCan is executing command "/mca join default" in world "world" at world age 4927.
+     [03:42:25] Player YTSodaCan is executing command "/mca" in world "world" at world age 5015.
+     [03:42:28] Player YTSodaCan is executing command "/mca list" in world "world" at world age 5079.
+     [03:42:59] Player YTSodaCan is executing command "/mca list" in world "world" at world age 5692.
+     [03:43:05] Executing console command: "reload"
+     [03:43:05] -- Loading Plugins --
+     [03:43:05] [WorldEdit] Disabling v0.1.18
+     [03:43:05] [MCArena Release] Disabled MCArena Release!
+     [03:43:05] [Core] Core plugin disabled
+     [03:43:05] [Core] Core plugin fully initialized!
+Info [03:43:05] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:43:05] Stack trace:
+Warn [03:43:05]   [C](-1): AddHook
+Warn [03:43:05]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:43:05] Stack trace end

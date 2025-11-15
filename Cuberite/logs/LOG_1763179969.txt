@@ -1,0 +1,354 @@
+     [04:12:49] --- Started Log ---
+     [04:12:49] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [04:12:49] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [04:12:49] Creating new server instance...
+     [04:12:49] Reading server config...
+     [04:12:49] Starting server...
+Info [04:12:49] Compatible clients: 1.8.x-1.14.4
+Warn [04:12:49] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [04:12:49] WebServer: The server will run in unsecured HTTP mode.
+Info [04:12:49] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [04:12:49] Loaded 789 crafting recipes
+Warn [04:12:49] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [04:12:49] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [04:12:49] Loaded 1.12.2 380 recipe book
+     [04:12:49] Loaded 67 furnace recipes and 66 fuels
+     [04:12:49] Loaded 49 brewing recipes
+Warn [04:12:49] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [04:12:49] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [04:12:49] -- Loading Plugins --
+     [04:12:49] [Core] Core plugin fully initialized!
+Info [04:12:49] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:12:49] Stack trace:
+Warn [04:12:49]   [C](-1): AddHook
+Warn [04:12:49]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:12:49] Stack trace end
+     [04:12:49] [ChatLog] Initialized ChatLog v.3
+     [04:12:49] -- Loaded 2 Plugins --
+Warn [04:12:50] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [04:12:50] WebAdmin is running on port(s) 9098
+     [04:12:50] Startup complete, took 1071ms!
+     [04:12:56] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [04:12:56] Player YTSodaCan has joined the game
+Warn [04:12:56] AddEntity: Entity at 0x75676c015640 (cPlayer, ID 118) spawning in a non-existent chunk.
+     [04:13:04] Executing console command: "load itemq"
+Warn [04:13:04] [MenuPlugin] MenuPlugin: Invalid handler for command /menu, command will not be registered.
+     [04:13:04] [MenuPlugin] MenuPlugin v1.0 loaded
+     [04:13:04] Plugin loaded
+     [04:13:08] Player YTSodaCan is executing command "/menu" in world "world" at world age 17217.
+Info [04:13:08] Player YTSodaCan issued an unknown command: "/menu"
+     [04:18:01] Executing console command: "reload"
+     [04:18:01] -- Loading Plugins --
+     [04:18:01] [Core] Core plugin disabled
+     [04:18:01] [MenuPlugin] MenuPlugin disabled
+     [04:18:01] [Core] Core plugin fully initialized!
+Info [04:18:01] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:18:01] Stack trace:
+Warn [04:18:01]   [C](-1): AddHook
+Warn [04:18:01]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:18:01] Stack trace end
+     [04:18:01] [ChatLog] Initialized ChatLog v.3
+     [04:18:01] -- Loaded 2 Plugins --
+     [04:18:04] Executing console command: "load itemq"
+Warn [04:18:04] [MenuPlugin] MenuPlugin: Invalid handler for command /menu, command will not be registered.
+     [04:18:04] [MenuPlugin] MenuPlugin v1.0 loaded
+     [04:18:04] Plugin loaded
+Info [04:19:46] Player YTSodaCan has left the game
+     [04:20:07] Executing console command: "load autosave"
+     [04:20:07] [AutoSave] Plugin AutoSave by Xenoxis - Version 1.1 initialised !
+     [04:20:07] Plugin loaded
+     [04:21:06] Executing console command: "load itemq"
+     [04:21:06] Plugin loaded
+     [04:21:10] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [04:21:10] [AutoSave] [AutoSave] At least one player connected, enabling auto saving.
+Info [04:21:10] Player YTSodaCan has joined the game
+Warn [04:21:10] AddEntity: Entity at 0x75676c417a60 (cPlayer, ID 148) spawning in a non-existent chunk.
+Warn [04:21:10] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:10] Stack trace:
+Warn [04:21:10]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:10] Stack trace end
+Warn [04:21:10] Error in <attached> calling function <callback>()
+Warn [04:21:11] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:11] Stack trace:
+Warn [04:21:11]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:11] Stack trace end
+Warn [04:21:11] Error in <attached> calling function <callback>()
+Warn [04:21:12] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:12] Stack trace:
+Warn [04:21:12]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:12] Stack trace end
+Warn [04:21:12] Error in <attached> calling function <callback>()
+Warn [04:21:13] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:13] Stack trace:
+Warn [04:21:13]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:13] Stack trace end
+Warn [04:21:13] Error in <attached> calling function <callback>()
+Warn [04:21:14] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:14] Stack trace:
+Warn [04:21:14]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:14] Stack trace end
+Warn [04:21:14] Error in <attached> calling function <callback>()
+Warn [04:21:15] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:15] Stack trace:
+Warn [04:21:15]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:15] Stack trace end
+Warn [04:21:15] Error in <attached> calling function <callback>()
+Warn [04:21:16] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:16] Stack trace:
+Warn [04:21:16]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:16] Stack trace end
+Warn [04:21:16] Error in <attached> calling function <callback>()
+Warn [04:21:17] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:17] Stack trace:
+Warn [04:21:17]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:17] Stack trace end
+Warn [04:21:17] Error in <attached> calling function <callback>()
+Warn [04:21:18] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:18] Stack trace:
+Warn [04:21:18]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:18] Stack trace end
+Warn [04:21:18] Error in <attached> calling function <callback>()
+     [04:21:19] Executing console command: "help"
+     [04:21:19] about                 - Shows the version of the server software.
+     [04:21:19] ban                   - Bans a player by name.
+     [04:21:19] banip                 - Bans a player by IP.
+     [04:21:19] banlist               - Shows a list of all players banned by name.
+     [04:21:19] banlist ips           - Shows a list of all players banned by IP.
+     [04:21:19] chunkstats            - Displays detailed chunk memory statistics
+     [04:21:19] clear                 - Clears the inventory of a player.
+     [04:21:19] deop                  - Resets a player's rank to default.
+     [04:21:19] destroyentities       - Destroys all entities in all worlds
+     [04:21:19] effect                - Adds an effect to a player.
+     [04:21:19] enchant               - Adds an enchantment to a specified player's held item.
+     [04:21:19] gamemode              - Changes a player's gamemode.
+     [04:21:19] give                  - Gives an item to a player.
+     [04:21:19] gm                    - Changes a player's gamemode.
+     [04:21:19] groups                - Shows a list of all the available groups.
+     [04:21:19] help                  - Shows the available commands
+     [04:21:19] kick                  - Kicks a player by name.
+     [04:21:19] kill                  - Kills a player.
+     [04:21:19] list                  - Shows a list of all connected players in a machine-readable format.
+     [04:21:19] listgroups            - Shows a list of all the available groups.
+     [04:21:19] listranks             - Shows a list of all the available ranks.
+     [04:21:19] load                  - Adds and enables the specified plugin
+     [04:21:19] msg                   - Sends a private message to a player.
+     [04:21:19] numchunks             - Shows number of chunks currently loaded.
+     [04:21:19] op                    - Add a player to the Admin rank.
+     [04:21:19] players               - Shows a list of all connected players.
+     [04:21:19] plugins               - Shows a list of the plugins.
+     [04:21:19] r                     - Replies to the latest private message you received.
+     [04:21:19] rank                  - Shows or sets a player's rank.
+     [04:21:19] ranks                 - Shows a list of all the available ranks.
+     [04:21:19] regen                 - Regenerates a chunk.
+     [04:21:19] reload                - Reloads all plugins
+     [04:21:19] reloadweb             - Reloads the webadmin configuration
+     [04:21:19] restart               - Restarts the server cleanly
+     [04:21:19] save-all              - Saves all worlds.
+     [04:21:19] say                   - Sends a chat message to all players.
+     [04:21:19] scoreboard            - Manages and displays scores for various scoreboard objectives. 
+     [04:21:19] scoreboard objectives - Manage Objectives
+     [04:21:19] scoreboard players    - Manage Players
+     [04:21:19] seed                  - Shows the seed of the given world name or default world, if not given.
+     [04:21:19] spawn                 - Returns a player to the spawn point.
+     [04:21:19] spawnpoint            - Sets the spawn point for a player.
+     [04:21:19] stop                  - Stops the server cleanly
+     [04:21:19] summon                - Summons an entity in the world.
+     [04:21:19] tell                  - Sends a private message to a player.
+     [04:21:19] time                  - Sets or displays the time.
+     [04:21:19] time add              - Adds a given value to the current time.
+     [04:21:19] time day              - Sets the time to day.
+     [04:21:19] time night            - Sets the time to night.
+     [04:21:19] time query daytime    - Displays the current time.
+     [04:21:19] time query gametime   - Displays the amount of time elapsed since start.
+     [04:21:19] time set              - Sets the time to a given value.
+     [04:21:19] toggledownfall        - Toggles the weather between clear skies and rain.
+     [04:21:19] tp                    - Teleports a player.
+     [04:21:19] tps                   - Returns the tps (ticks per second) from the server.
+     [04:21:19] unban                 - Unbans a player by name.
+     [04:21:19] unbanip               - Unbans a player by IP.
+     [04:21:19] unload                - Disables the specified plugin
+     [04:21:19] unloadchunks          - Unloads all unused chunks.
+     [04:21:19] unrank                - Resets a player's rank to default.
+     [04:21:19] unsafegive            - Gives an item to a player, even if the item is blacklisted.
+     [04:21:19] version               - Shows the version of the server software.
+     [04:21:19] weather               - Changes the world's weather.
+     [04:21:19] whitelist             - Manages the whitelist.
+     [04:21:19] whitelist add         - Adds a player to the whitelist.
+     [04:21:19] whitelist list        - Shows a list of all players on the whitelist.
+     [04:21:19] whitelist off         - Turns off whitelist processing.
+     [04:21:19] whitelist on          - Turns on whitelist processing.
+     [04:21:19] whitelist remove      - Removes a player from the whitelist.
+     [04:21:19] worlds                - Shows a list of all the worlds.
+Warn [04:21:19] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:19] Stack trace:
+Warn [04:21:19]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:19] Stack trace end
+Warn [04:21:19] Error in <attached> calling function <callback>()
+Warn [04:21:20] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:20] Stack trace:
+Warn [04:21:20]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:20] Stack trace end
+Warn [04:21:20] Error in <attached> calling function <callback>()
+Warn [04:21:21] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:21] Stack trace:
+Warn [04:21:21]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:21] Stack trace end
+Warn [04:21:21] Error in <attached> calling function <callback>()
+Warn [04:21:22] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:22] Stack trace:
+Warn [04:21:22]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:22] Stack trace end
+Warn [04:21:22] Error in <attached> calling function <callback>()
+Warn [04:21:23] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:23] Stack trace:
+Warn [04:21:23]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:23] Stack trace end
+Warn [04:21:23] Error in <attached> calling function <callback>()
+Warn [04:21:24] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:24] Stack trace:
+Warn [04:21:24]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:24] Stack trace end
+Warn [04:21:24] Error in <attached> calling function <callback>()
+Warn [04:21:25] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:25] Stack trace:
+Warn [04:21:25]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:25] Stack trace end
+Warn [04:21:25] Error in <attached> calling function <callback>()
+Warn [04:21:26] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:26] Stack trace:
+Warn [04:21:26]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:26] Stack trace end
+Warn [04:21:26] Error in <attached> calling function <callback>()
+Warn [04:21:27] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:27] Stack trace:
+Warn [04:21:27]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:27] Stack trace end
+Warn [04:21:27] Error in <attached> calling function <callback>()
+Warn [04:21:28] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:28] Stack trace:
+Warn [04:21:28]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:28] Stack trace end
+Warn [04:21:28] Error in <attached> calling function <callback>()
+Warn [04:21:29] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:29] Stack trace:
+Warn [04:21:29]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:29] Stack trace end
+Warn [04:21:29] Error in <attached> calling function <callback>()
+Warn [04:21:30] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:30] Stack trace:
+Warn [04:21:30]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:30] Stack trace end
+Warn [04:21:30] Error in <attached> calling function <callback>()
+Warn [04:21:31] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:31] Stack trace:
+Warn [04:21:31]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:31] Stack trace end
+Warn [04:21:31] Error in <attached> calling function <callback>()
+Warn [04:21:32] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:32] Stack trace:
+Warn [04:21:32]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:32] Stack trace end
+Warn [04:21:32] Error in <attached> calling function <callback>()
+Warn [04:21:33] LUA: Plugins/autosave/autosave.lua:108: attempt to compare nil with number
+Warn [04:21:33] Stack trace:
+Warn [04:21:33]   Plugins/autosave/autosave.lua(108): (no name)
+Warn [04:21:33] Stack trace end
+Warn [04:21:33] Error in <attached> calling function <callback>()
+     [04:21:34] Executing console command: "reload"
+     [04:21:34] -- Loading Plugins --
+     [04:21:34] [Core] Core plugin disabled
+     [04:21:34] [MenuPlugin] MenuPlugin disabled
+     [04:21:34] [Core] Core plugin fully initialized!
+Info [04:21:34] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:21:34] Stack trace:
+Warn [04:21:34]   [C](-1): AddHook
+Warn [04:21:34]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:21:34] Stack trace end
+     [04:21:34] [ChatLog] Initialized ChatLog v.3
+     [04:21:34] -- Loaded 2 Plugins --
+     [04:21:42] Executing console command: "load itemq"
+     [04:21:42] [MenuPlugin] MenuPlugin initialized!
+     [04:21:42] Plugin loaded
+     [04:21:46] Player YTSodaCan is executing command "/menu" in world "world" at world age 27508.
+Warn [04:21:46] LUA: Plugins/itemq/main.lua:44: attempt to index global 'cChestWindow' (a nil value)
+Warn [04:21:46] Stack trace:
+Warn [04:21:46]   Plugins/itemq/main.lua(44): OpenMenu
+Warn [04:21:46]   Plugins/itemq/main.lua(38): (no name)
+Warn [04:21:46] Stack trace end
+Warn [04:21:46] Error in <attached> calling function <callback>()
+     [04:22:26] Executing console command: "load itemq"
+     [04:22:26] Plugin loaded
+     [04:22:30] Player YTSodaCan is executing command "/menu" in world "world" at world age 28379.
+Warn [04:22:30] LUA: Plugins/itemq/main.lua:44: attempt to index global 'cChestWindow' (a nil value)
+Warn [04:22:30] Stack trace:
+Warn [04:22:30]   Plugins/itemq/main.lua(44): OpenMenu
+Warn [04:22:30]   Plugins/itemq/main.lua(38): (no name)
+Warn [04:22:30] Stack trace end
+Warn [04:22:30] Error in <attached> calling function <callback>()
+     [04:22:36] Executing console command: "reload"
+     [04:22:36] -- Loading Plugins --
+     [04:22:36] [Core] Core plugin disabled
+     [04:22:36] [MenuPlugin] MenuPlugin disabled
+     [04:22:36] [Core] Core plugin fully initialized!
+Info [04:22:36] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:22:36] Stack trace:
+Warn [04:22:36]   [C](-1): AddHook
+Warn [04:22:36]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:22:36] Stack trace end
+     [04:22:36] [ChatLog] Initialized ChatLog v.3
+     [04:22:36] -- Loaded 2 Plugins --
+     [04:22:39] Executing console command: "load itemq"
+     [04:22:39] [MenuPlugin] MenuPlugin initialized!
+     [04:22:39] Plugin loaded
+     [04:22:42] Player YTSodaCan is executing command "/menu" in world "world" at world age 28613.
+Warn [04:22:42] LUA: Plugins/itemq/main.lua:24: attempt to call method 'new' (a nil value)
+Warn [04:22:42] Stack trace:
+Warn [04:22:42]   Plugins/itemq/main.lua(24): OpenMenu
+Warn [04:22:42]   Plugins/itemq/main.lua(18): (no name)
+Warn [04:22:42] Stack trace end
+Warn [04:22:42] Error in <attached> calling function <callback>()
+     [04:24:01] Executing console command: "reload"
+     [04:24:01] -- Loading Plugins --
+     [04:24:01] [Core] Core plugin disabled
+     [04:24:01] [MenuPlugin] MenuPlugin disabled
+     [04:24:02] [Core] Core plugin fully initialized!
+Info [04:24:02] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:24:02] Stack trace:
+Warn [04:24:02]   [C](-1): AddHook
+Warn [04:24:02]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:24:02] Stack trace end
+     [04:24:02] [ChatLog] Initialized ChatLog v.3
+     [04:24:02] -- Loaded 2 Plugins --
+     [04:24:04] Executing console command: "load itemq"
+     [04:24:04] [MenuPlugin] MenuPlugin initialized!
+     [04:24:04] Plugin loaded
+     [04:24:07] Player YTSodaCan is executing command "/menu" in world "world" at world age 30298.
+Warn [04:24:07] LUA: Plugins/itemq/main.lua:24: Attempt to call a non-callable object.
+Warn [04:24:07] Stack trace:
+Warn [04:24:07]   [C](-1): cWindow
+Warn [04:24:07]   Plugins/itemq/main.lua(24): OpenMenu
+Warn [04:24:07]   Plugins/itemq/main.lua(18): (no name)
+Warn [04:24:07] Stack trace end
+Warn [04:24:07] Error in <attached> calling function <callback>()
+     [04:26:05] Executing console command: "reload"
+     [04:26:05] -- Loading Plugins --
+     [04:26:05] [Core] Core plugin disabled
+     [04:26:05] [MenuPlugin] MenuPlugin disabled
+     [04:26:05] [Core] Core plugin fully initialized!
+Info [04:26:05] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:26:05] Stack trace:
+Warn [04:26:05]   [C](-1): AddHook
+Warn [04:26:05]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:26:05] Stack trace end
+     [04:26:05] [ChatLog] Initialized ChatLog v.3
+     [04:26:05] -- Loaded 2 Plugins --
+     [04:26:07] Executing console command: "load itemq"
+     [04:26:07] [MenuPlugin] MenuPlugin initialized!
+     [04:26:07] Plugin loaded
+     [04:26:10] Player YTSodaCan is executing command "/menu" in world "world" at world age 32739.
+Warn [04:26:10] LUA: Plugins/itemq/main.lua:24: attempt to call global 'cInventoryWindow' (a nil value)
+Warn [04:26:10] Stack trace:
+Warn [04:26:10]   Plugins/itemq/main.lua(24): OpenMenu
+Warn [04:26:10]   Plugins/itemq/main.lua(18): (no name)
+Warn [04:26:10] Stack trace end
+Warn [04:26:10] Error in <attached> calling function <callback>()

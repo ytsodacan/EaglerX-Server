@@ -91,12 +91,12 @@
 		}
 	],
 	"equippedItemSlot" : 0,
-	"food" : 17,
-	"foodExhaustion" : 2.8312000715255734,
-	"foodSaturation" : 0.0,
-	"foodTickTimer" : 0,
-	"gamemode" : -1,
-	"health" : 6.0,
+	"food" : 20,
+	"foodExhaustion" : 0.36615000000000003,
+	"foodSaturation" : 5.0,
+	"foodTickTimer" : 18,
+	"gamemode" : 0,
+	"health" : 20.0,
 	"inventory" : 
 	[
 		{
@@ -208,10 +208,7 @@
 			"ID" : -1
 		},
 		{
-			"Count" : 1,
-			"Health" : 0,
-			"ID" : 3,
-			"RepairCost" : 0
+			"ID" : -1
 		},
 		{
 			"ID" : -1
@@ -249,23 +246,29 @@
 			"Health" : 0,
 			"ID" : 3,
 			"RepairCost" : 0
+		},
+		{
+			"Count" : 1,
+			"Health" : 0,
+			"ID" : 276,
+			"RepairCost" : 0
 		}
 	],
 	"knownRecipes" : null,
 	"lastknownname" : "YTSodaCan2",
 	"position" : 
 	[
-		27.165813829495693,
-		65.171723281204706,
-		-55.872232546016448
+		-6.1862125858276356,
+		63.0,
+		-1.7264469475074797
 	],
 	"rotation" : 
 	[
-		13.5001220703125,
-		3.6000001430511475,
+		-40.199928283691406,
+		-22.050008773803711,
 		0.0
 	],
 	"world" : "world",
-	"xpCurrent" : 8,
-	"xpTotal" : 8
+	"xpCurrent" : 0,
+	"xpTotal" : 0
 }

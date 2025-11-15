@@ -1,0 +1,34 @@
+     [02:07:24] --- Started Log ---
+     [02:07:24] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [02:07:24] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [02:07:24] Creating new server instance...
+     [02:07:24] Reading server config...
+     [02:07:24] Starting server...
+Info [02:07:24] Compatible clients: 1.8.x-1.14.4
+Warn [02:07:24] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [02:07:24] WebServer: The server will run in unsecured HTTP mode.
+Info [02:07:24] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [02:07:24] Loaded 789 crafting recipes
+Warn [02:07:24] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [02:07:24] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [02:07:24] Loaded 1.12.2 380 recipe book
+     [02:07:24] Loaded 67 furnace recipes and 66 fuels
+     [02:07:24] Loaded 49 brewing recipes
+Warn [02:07:24] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [02:07:24] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [02:07:25] -- Loading Plugins --
+     [02:07:25] [Core] Core plugin fully initialized!
+Info [02:07:25] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:07:25] Stack trace:
+Warn [02:07:25]   [C](-1): AddHook
+Warn [02:07:25]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:07:25] Stack trace end
+     [02:07:25] [ChatLog] Initialized ChatLog v.3
+     [02:07:25] -- Loaded 2 Plugins --
+     [02:07:26] Preparing spawn (world_nether): 82.25% (329/400; 328.67 chunks / sec)
+Warn [02:07:27] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [02:07:27] WebAdmin is running on port(s) 9098
+     [02:07:27] Startup complete, took 2313ms!
+     [02:08:51] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:08:51] Player YTSodaCan has joined the game
+Warn [02:08:51] AddEntity: Entity at 0x7536a0029580 (cPlayer, ID 109) spawning in a non-existent chunk.

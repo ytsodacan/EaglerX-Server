@@ -1,0 +1,63 @@
+     [03:23:08] --- Started Log ---
+     [03:23:08] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:23:08] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:23:08] Creating new server instance...
+     [03:23:08] Reading server config...
+     [03:23:08] Starting server...
+Info [03:23:08] Compatible clients: 1.8.x-1.14.4
+Warn [03:23:08] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:23:08] WebServer: The server will run in unsecured HTTP mode.
+Info [03:23:08] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:23:08] Loaded 789 crafting recipes
+Warn [03:23:08] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:23:08] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:23:08] Loaded 1.12.2 380 recipe book
+     [03:23:08] Loaded 67 furnace recipes and 66 fuels
+     [03:23:08] Loaded 49 brewing recipes
+Warn [03:23:08] Failed to load scoreboard from "world/data/scoreboard.dat": basic_ios::clear: iostream error
+Warn [03:23:08] Cannot read world settings from "world/world.ini", defaults will be used.
+Info [03:23:08] Chosen a new random seed for world: 2072849200
+Warn [03:23:08] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:23:08] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [03:23:09] -- Loading Plugins --
+     [03:23:09] [Core] Core plugin fully initialized!
+Info [03:23:09] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:23:09] Stack trace:
+Warn [03:23:09]   [C](-1): AddHook
+Warn [03:23:09]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:23:09] Stack trace end
+     [03:23:09] [ChatLog] Initialized ChatLog v.3
+     [03:23:09] -- Loaded 2 Plugins --
+     [03:23:10] Preparing spawn (world): 2.50% (10/400; 9.97 chunks / sec)
+     [03:23:11] Preparing spawn (world): 9.50% (38/400; 27.86 chunks / sec)
+     [03:23:12] Preparing spawn (world): 25.25% (101/400; 61.28 chunks / sec)
+     [03:23:13] Preparing spawn (world): 42.50% (170/400; 68.93 chunks / sec)
+     [03:23:14] Preparing spawn (world): 78.50% (314/400; 143.57 chunks / sec)
+Info [03:23:14] World "world":Generated spawnpoint position at {0, 64, 8}
+Warn [03:23:15] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [03:23:15] WebAdmin is running on port(s) 9098
+     [03:23:15] Startup complete, took 6748ms!
+     [03:28:34] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [03:28:34] Player "YTSodaCan" (e0912d581a4c3e408466944f0bf4376e) save or statistics file not found, resetting to defaults
+Info [03:28:34] Player YTSodaCan has joined the game
+Warn [03:28:34] AddEntity: Entity at 0x71e5b002d2d0 (cPlayer, ID 107) spawning in a non-existent chunk.
+     [03:28:48] Executing console command: "load WorldEdit"
+     [03:28:48] [WorldEdit] Enabling v0.1.18
+     [03:28:48] Plugin loaded
+Info [03:28:48] [WorldEdit] Your WorldEdit plugin is up-to-date
+     [03:29:49] Player YTSodaCan is executing command "//schematic list" in world "world" at world age 7979.
+     [03:30:11] Player YTSodaCan is executing command "//schematic list" in world "world" at world age 8410.
+     [03:30:22] Player YTSodaCan is executing command "//schematic list" in world "world" at world age 8633.
+     [03:31:01] Player YTSodaCan is executing command "//schematic list" in world "world" at world age 9410.
+     [03:31:30] Player YTSodaCan is executing command "/tp ytsodacan 500 100 500" in world "world" at world age 9969.
+     [03:31:35] Player YTSodaCan is executing command "/tp 500 100 500" in world "world" at world age 10080.
+     [03:31:43] Player YTSodaCan is executing command "/tp -500 100 -500" in world "world" at world age 10239.
+     [03:31:53] Player YTSodaCan is executing command "//schematic load schem" in world "world" at world age 10431.
+     [03:31:58] Player YTSodaCan is executing command "//paste" in world "world" at world age 10533.
+     [03:32:37] Player YTSodaCan is executing command "//undo" in world "world" at world age 11312.
+     [03:32:42] Player YTSodaCan is executing command "//snapshort" in world "world" at world age 11412.
+Info [03:32:42] Player YTSodaCan issued an unknown command: "//snapshort"
+     [03:32:44] Player YTSodaCan is executing command "//snapshot" in world "world" at world age 11447.
+Info [03:32:44] Player YTSodaCan issued an unknown command: "//snapshot"
+     [03:33:13] Player YTSodaCan is executing command "//paste" in world "world" at world age 12021.
+Warn [03:33:24] MoveEntityToNewChunk: Entity at 0x71e5dc741e80 (cChicken, ID 197) moving to a non-existent chunk.

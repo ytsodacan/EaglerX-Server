@@ -1,0 +1,129 @@
+     [03:59:19] --- Started Log ---
+     [03:59:19] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [03:59:19] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [03:59:19] Creating new server instance...
+     [03:59:19] Reading server config...
+     [03:59:19] Starting server...
+Info [03:59:19] Compatible clients: 1.8.x-1.14.4
+Warn [03:59:19] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [03:59:19] WebServer: The server will run in unsecured HTTP mode.
+Info [03:59:19] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [03:59:19] Loaded 789 crafting recipes
+Warn [03:59:19] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [03:59:19] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [03:59:19] Loaded 1.12.2 380 recipe book
+     [03:59:19] Loaded 67 furnace recipes and 66 fuels
+     [03:59:19] Loaded 49 brewing recipes
+Warn [03:59:19] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [03:59:19] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [03:59:19] -- Loading Plugins --
+     [03:59:19] [Core] Core plugin fully initialized!
+Info [03:59:19] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [03:59:19] Stack trace:
+Warn [03:59:19]   [C](-1): AddHook
+Warn [03:59:19]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [03:59:19] Stack trace end
+     [03:59:19] [ChatLog] Initialized ChatLog v.3
+     [03:59:19] -- Loaded 2 Plugins --
+Warn [03:59:20] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [03:59:20] WebAdmin is running on port(s) 9098
+     [03:59:20] Startup complete, took 1029ms!
+     [03:59:29] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:59:29] Player YTSodaCan has joined the game
+Warn [03:59:29] AddEntity: Entity at 0x740c14000e90 (cPlayer, ID 474) spawning in a non-existent chunk.
+     [03:59:45] Executing console command: "load itemq"
+     [03:59:45] [ChestMenu] ChestMenu loaded
+     [03:59:45] Plugin loaded
+     [04:00:53] Executing console command: "load itemq"
+     [04:00:53] Plugin loaded
+     [04:01:16] Player YTSodaCan is executing command "/menu" in world "world" at world age 19179.
+Info [04:01:16] Player YTSodaCan issued an unknown command: "/menu"
+     [04:02:48] Executing console command: "load itemq"
+     [04:02:48] Plugin loaded
+     [04:02:52] Player YTSodaCan is executing command "/menu" in world "world" at world age 21089.
+Info [04:02:52] Player YTSodaCan issued an unknown command: "/menu"
+     [04:03:08] Executing console command: "reload"
+     [04:03:08] -- Loading Plugins --
+     [04:03:08] [Core] Core plugin disabled
+     [04:03:08] [Core] Core plugin fully initialized!
+Info [04:03:08] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:03:08] Stack trace:
+Warn [04:03:08]   [C](-1): AddHook
+Warn [04:03:08]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:03:08] Stack trace end
+     [04:03:08] [ChatLog] Initialized ChatLog v.3
+     [04:03:08] -- Loaded 2 Plugins --
+     [04:03:14] Executing console command: "load itemq"
+Warn [04:03:14] Error in plugin itemq: Could not find function Initialize()
+Warn [04:03:14] Error in plugin ChestMenu: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [04:03:14] Error occurred loading plugin
+     [04:03:46] Executing console command: "reload"
+     [04:03:46] -- Loading Plugins --
+     [04:03:46] [Core] Core plugin disabled
+     [04:03:46] [Core] Core plugin fully initialized!
+Info [04:03:46] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:03:46] Stack trace:
+Warn [04:03:46]   [C](-1): AddHook
+Warn [04:03:46]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:03:46] Stack trace end
+     [04:03:46] [ChatLog] Initialized ChatLog v.3
+     [04:03:46] -- Loaded 2 Plugins --
+     [04:03:49] Executing console command: "load itemq"
+     [04:03:49] [MenuPlugin] MenuPlugin loaded
+     [04:03:49] Plugin loaded
+     [04:03:53] Player YTSodaCan is executing command "/meu" in world "world" at world age 22300.
+Info [04:03:53] Player YTSodaCan issued an unknown command: "/meu"
+     [04:03:56] Player YTSodaCan is executing command "/menu" in world "world" at world age 22356.
+Info [04:03:56] Player YTSodaCan issued an unknown command: "/menu"
+     [04:05:30] Executing console command: "reload"
+     [04:05:30] -- Loading Plugins --
+     [04:05:30] [Core] Core plugin disabled
+     [04:05:30] [Core] Core plugin fully initialized!
+Info [04:05:30] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:05:30] Stack trace:
+Warn [04:05:30]   [C](-1): AddHook
+Warn [04:05:30]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:05:30] Stack trace end
+     [04:05:30] [ChatLog] Initialized ChatLog v.3
+     [04:05:30] -- Loaded 2 Plugins --
+     [04:05:32] Executing console command: "load itemq"
+     [04:05:32] [MenuPlugin] MenuPlugin loaded
+     [04:05:32] Plugin loaded
+     [04:05:36] Player YTSodaCan is executing command "/menu" in world "world" at world age 24332.
+Info [04:05:36] Player YTSodaCan issued an unknown command: "/menu"
+     [04:06:26] Executing console command: "reload"
+     [04:06:26] -- Loading Plugins --
+     [04:06:26] [Core] Core plugin disabled
+     [04:06:26] [Core] Core plugin fully initialized!
+Info [04:06:26] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [04:06:26] Stack trace:
+Warn [04:06:26]   [C](-1): AddHook
+Warn [04:06:26]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [04:06:26] Stack trace end
+     [04:06:26] [ChatLog] Initialized ChatLog v.3
+     [04:06:26] -- Loaded 2 Plugins --
+     [04:06:28] Executing console command: "load itemq"
+     [04:06:28] [MenuPlugin] MenuPlugin loaded
+Warn [04:06:28] LUA: Plugins/itemq/main.lua:7: attempt to call method 'AddCommand' (a nil value)
+Warn [04:06:28] Stack trace:
+Warn [04:06:28]   Plugins/itemq/main.lua(7): (no name)
+Warn [04:06:28] Stack trace end
+Warn [04:06:28] Error in plugin itemq calling function Initialize()
+Warn [04:06:28] Error in plugin MenuPlugin: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [04:06:28] Error occurred loading plugin
+     [04:07:54] Executing console command: "load itemq"
+     [04:07:54] [MenuPlugin] MenuPlugin loaded
+     [04:07:54] Plugin loaded
+     [04:07:57] Player YTSodaCan is executing command "/menu" in world "world" at world age 27142.
+Info [04:07:57] Player YTSodaCan issued an unknown command: "/menu"
+     [04:12:42] Executing console command: "reload"
+     [04:12:42] -- Loading Plugins --
+     [04:12:42] [Core] Core plugin disabled
+Err  [04:12:42] Failure report: 
+
+  :(   | Cuberite has encountered an error and needs to close
+       | SIGSEGV: Segmentation fault
+       |
+       | Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+       | from commit eda440e0db028587975c867dbacb513d80df4dca
+

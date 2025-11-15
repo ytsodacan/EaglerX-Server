@@ -1,0 +1,372 @@
+     [02:33:58] --- Started Log ---
+     [02:33:58] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [02:33:58] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [02:33:58] Creating new server instance...
+     [02:33:58] Reading server config...
+     [02:33:58] Starting server...
+Info [02:33:58] Compatible clients: 1.8.x-1.14.4
+Warn [02:33:58] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [02:33:58] WebServer: The server will run in unsecured HTTP mode.
+Info [02:33:58] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [02:33:58] Loaded 789 crafting recipes
+Warn [02:33:58] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [02:33:58] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [02:33:58] Loaded 1.12.2 380 recipe book
+     [02:33:58] Loaded 67 furnace recipes and 66 fuels
+     [02:33:58] Loaded 49 brewing recipes
+Warn [02:33:58] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [02:33:58] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [02:33:58] -- Loading Plugins --
+     [02:33:58] [Core] Core plugin fully initialized!
+Info [02:33:58] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:33:58] Stack trace:
+Warn [02:33:58]   [C](-1): AddHook
+Warn [02:33:58]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:33:58] Stack trace end
+     [02:33:58] [ChatLog] Initialized ChatLog v.3
+     [02:33:58] -- Loaded 2 Plugins --
+Warn [02:33:59] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [02:33:59] WebAdmin is running on port(s) 9098
+     [02:33:59] Startup complete, took 1032ms!
+     [02:34:22] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:34:22] Player YTSodaCan has joined the game
+     [02:34:28] Player YTSodaCan is executing command "/login" in world "world" at world age 139867.
+Info [02:34:28] Player YTSodaCan issued an unknown command: "/login"
+     [02:35:06] Executing console command: "reload"
+     [02:35:06] -- Loading Plugins --
+     [02:35:06] [Core] InfoReg plugin disabled
+     [02:35:06] [Core] Core plugin fully initialized!
+Info [02:35:06] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:35:06] Stack trace:
+Warn [02:35:06]   [C](-1): AddHook
+Warn [02:35:06]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:35:06] Stack trace end
+     [02:35:06] [ChatLog] Initialized ChatLog v.3
+     [02:35:06] -- Loaded 2 Plugins --
+     [02:35:49] Executing console command: "reload"
+     [02:35:49] -- Loading Plugins --
+     [02:35:49] [Core] InfoReg plugin disabled
+     [02:35:49] [Core] Core plugin fully initialized!
+Info [02:35:49] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:35:49] Stack trace:
+Warn [02:35:49]   [C](-1): AddHook
+Warn [02:35:49]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:35:49] Stack trace end
+     [02:35:49] [ChatLog] Initialized ChatLog v.3
+     [02:35:49] -- Loaded 2 Plugins --
+     [02:36:18] Executing console command: "reload"
+     [02:36:18] -- Loading Plugins --
+     [02:36:18] [Core] InfoReg plugin disabled
+     [02:36:18] [Core] Core plugin fully initialized!
+Info [02:36:18] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:36:18] Stack trace:
+Warn [02:36:18]   [C](-1): AddHook
+Warn [02:36:18]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:36:18] Stack trace end
+     [02:36:18] [ChatLog] Initialized ChatLog v.3
+     [02:36:18] -- Loaded 2 Plugins --
+     [02:36:45] Executing console command: "reload"
+     [02:36:45] -- Loading Plugins --
+     [02:36:45] [Core] InfoReg plugin disabled
+     [02:36:45] [Core] Core plugin fully initialized!
+Info [02:36:45] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:36:45] Stack trace:
+Warn [02:36:45]   [C](-1): AddHook
+Warn [02:36:45]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:36:45] Stack trace end
+     [02:36:45] [ChatLog] Initialized ChatLog v.3
+     [02:36:45] -- Loaded 2 Plugins --
+     [02:37:41] Executing console command: "reload"
+     [02:37:41] -- Loading Plugins --
+     [02:37:41] [Core] InfoReg plugin disabled
+     [02:37:41] [Core] Core plugin fully initialized!
+Info [02:37:41] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:37:41] Stack trace:
+Warn [02:37:41]   [C](-1): AddHook
+Warn [02:37:41]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:37:41] Stack trace end
+     [02:37:41] [ChatLog] Initialized ChatLog v.3
+     [02:37:41] -- Loaded 2 Plugins --
+     [02:39:07] Executing console command: "load Login"
+Warn [02:39:07] LUA: Plugins/Login/init.lua:14: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [02:39:07] Stack trace:
+Warn [02:39:07]   Plugins/Login/init.lua(14): (no name)
+Warn [02:39:07] Stack trace end
+Warn [02:39:07] Error in plugin Login calling function Initialize()
+Warn [02:39:07] Error in plugin Login: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [02:39:07] Error occurred loading plugin
+     [02:42:11] Executing console command: "load arena"
+     [02:42:11] [MCArena Release] Config folder does not exist!  Creating directory 'config'...
+Warn [02:42:11] LUA: Plugins/arena/main.lua:86: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [02:42:11] Stack trace:
+Warn [02:42:11]   Plugins/arena/main.lua(86): (no name)
+Warn [02:42:11] Stack trace end
+Warn [02:42:11] Error in plugin arena calling function Initialize()
+Warn [02:42:11] Error in plugin MCArena Release: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [02:42:11] Error occurred loading plugin
+     [02:43:42] Executing console command: "reload"
+     [02:43:42] -- Loading Plugins --
+     [02:43:42] [Core] InfoReg plugin disabled
+     [02:43:42] [Core] Core plugin fully initialized!
+Info [02:43:42] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:43:42] Stack trace:
+Warn [02:43:42]   [C](-1): AddHook
+Warn [02:43:42]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:43:42] Stack trace end
+     [02:43:42] [ChatLog] Initialized ChatLog v.3
+     [02:43:42] -- Loaded 2 Plugins --
+     [02:43:46] Executing console command: "load Login"
+Warn [02:43:46] [Login] [Login] The config file doesn't exist. Login will write and load the default settings for now
+     [02:43:46] [Login] Login is initialized
+     [02:43:46] Plugin loaded
+     [02:43:56] Executing console command: "load arena"
+     [02:43:56] [MCArena Release] Arena config file does not exist or is empty, generating a new one
+     [02:43:56] [MCArena Release] Kit config file does not exist or is empty, generating a new one
+     [02:43:56] [MCArena Release] Initialized MCArena Release v1.2
+     [02:43:56] Plugin loaded
+     [02:43:58] Executing console command: "reload"
+     [02:43:58] -- Loading Plugins --
+     [02:43:58] [Core] Core plugin disabled
+     [02:43:58] [MCArena Release] Disabled MCArena Release!
+     [02:43:58] [Core] Core plugin fully initialized!
+Info [02:43:58] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [02:43:58] Stack trace:
+Warn [02:43:58]   [C](-1): AddHook
+Warn [02:43:58]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [02:43:58] Stack trace end
+     [02:43:58] [ChatLog] Initialized ChatLog v.3
+     [02:43:58] -- Loaded 2 Plugins --
+     [02:44:20] Executing console command: "help"
+     [02:44:20] about                 - Shows the version of the server software.
+     [02:44:20] ban                   - Bans a player by name.
+     [02:44:20] banip                 - Bans a player by IP.
+     [02:44:20] banlist               - Shows a list of all players banned by name.
+     [02:44:20] banlist ips           - Shows a list of all players banned by IP.
+     [02:44:20] chunkstats            - Displays detailed chunk memory statistics
+     [02:44:20] clear                 - Clears the inventory of a player.
+     [02:44:20] deop                  - Resets a player's rank to default.
+     [02:44:20] destroyentities       - Destroys all entities in all worlds
+     [02:44:20] effect                - Adds an effect to a player.
+     [02:44:20] enchant               - Adds an enchantment to a specified player's held item.
+     [02:44:20] gamemode              - Changes a player's gamemode.
+     [02:44:20] give                  - Gives an item to a player.
+     [02:44:20] gm                    - Changes a player's gamemode.
+     [02:44:20] groups                - Shows a list of all the available groups.
+     [02:44:20] help                  - Shows the available commands
+     [02:44:20] kick                  - Kicks a player by name.
+     [02:44:20] kill                  - Kills a player.
+     [02:44:20] list                  - Shows a list of all connected players in a machine-readable format.
+     [02:44:20] listgroups            - Shows a list of all the available groups.
+     [02:44:20] listranks             - Shows a list of all the available ranks.
+     [02:44:20] load                  - Adds and enables the specified plugin
+     [02:44:20] msg                   - Sends a private message to a player.
+     [02:44:20] numchunks             - Shows number of chunks currently loaded.
+     [02:44:20] op                    - Add a player to the Admin rank.
+     [02:44:20] players               - Shows a list of all connected players.
+     [02:44:20] plugins               - Shows a list of the plugins.
+     [02:44:20] r                     - Replies to the latest private message you received.
+     [02:44:20] rank                  - Shows or sets a player's rank.
+     [02:44:20] ranks                 - Shows a list of all the available ranks.
+     [02:44:20] regen                 - Regenerates a chunk.
+     [02:44:20] reload                - Reloads all plugins
+     [02:44:20] reloadweb             - Reloads the webadmin configuration
+     [02:44:20] restart               - Restarts the server cleanly
+     [02:44:20] save-all              - Saves all worlds.
+     [02:44:20] say                   - Sends a chat message to all players.
+     [02:44:20] scoreboard            - Manages and displays scores for various scoreboard objectives. 
+     [02:44:20] scoreboard objectives - Manage Objectives
+     [02:44:20] scoreboard players    - Manage Players
+     [02:44:20] seed                  - Shows the seed of the given world name or default world, if not given.
+     [02:44:20] spawn                 - Returns a player to the spawn point.
+     [02:44:20] spawnpoint            - Sets the spawn point for a player.
+     [02:44:20] stop                  - Stops the server cleanly
+     [02:44:20] summon                - Summons an entity in the world.
+     [02:44:20] tell                  - Sends a private message to a player.
+     [02:44:20] time                  - Sets or displays the time.
+     [02:44:20] time add              - Adds a given value to the current time.
+     [02:44:20] time day              - Sets the time to day.
+     [02:44:20] time night            - Sets the time to night.
+     [02:44:20] time query daytime    - Displays the current time.
+     [02:44:20] time query gametime   - Displays the amount of time elapsed since start.
+     [02:44:20] time set              - Sets the time to a given value.
+     [02:44:20] toggledownfall        - Toggles the weather between clear skies and rain.
+     [02:44:20] tp                    - Teleports a player.
+     [02:44:20] tps                   - Returns the tps (ticks per second) from the server.
+     [02:44:20] unban                 - Unbans a player by name.
+     [02:44:20] unbanip               - Unbans a player by IP.
+     [02:44:20] unload                - Disables the specified plugin
+     [02:44:20] unloadchunks          - Unloads all unused chunks.
+     [02:44:20] unrank                - Resets a player's rank to default.
+     [02:44:20] unsafegive            - Gives an item to a player, even if the item is blacklisted.
+     [02:44:20] version               - Shows the version of the server software.
+     [02:44:20] weather               - Changes the world's weather.
+     [02:44:20] whitelist             - Manages the whitelist.
+     [02:44:20] whitelist add         - Adds a player to the whitelist.
+     [02:44:20] whitelist list        - Shows a list of all players on the whitelist.
+     [02:44:20] whitelist off         - Turns off whitelist processing.
+     [02:44:20] whitelist on          - Turns on whitelist processing.
+     [02:44:20] whitelist remove      - Removes a player from the whitelist.
+     [02:44:20] worlds                - Shows a list of all the worlds.
+     [02:44:37] Executing console command: "op YTSodaCan"
+     [02:44:37] Player "YTSodaCan" is now in rank Admin
+     [02:44:45] Executing console command: "load Arena"
+     [02:44:45] Cannot load plugin, folder "Arena" not found.
+     [02:44:45] Error occurred loading plugin
+     [02:44:53] Executing console command: "load arena"
+     [02:44:53] [MCArena Release] Arena config file does not exist or is empty, generating a new one
+     [02:44:53] [MCArena Release] Initialized MCArena Release v1.2
+     [02:44:53] Plugin loaded
+     [02:45:00] Executing console command: "load Login"
+     [02:45:00] [Login] Login is initialized
+     [02:45:00] Plugin loaded
+     [02:45:04] Player YTSodaCan is executing command "/login" in world "world" at world age 152476.
+Info [02:45:06] Player YTSodaCan has left the game
+     [02:45:08] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:45:08] Player YTSodaCan has joined the game
+Err  [02:45:10] Value u in AddChatPartStyle() is deprecated
+Err  [02:45:13] Value u in AddChatPartStyle() is deprecated
+Err  [02:45:15] Value u in AddChatPartStyle() is deprecated
+     [02:45:16] Player YTSodaCan is executing command "/register 33112277yy" in world "world" at world age 152717.
+Err  [02:45:18] Value u in AddChatPartStyle() is deprecated
+Err  [02:45:20] Value u in AddChatPartStyle() is deprecated
+     [02:45:21] Player YTSodaCan is executing command "/register 33112277yy 33112277yy" in world "world" at world age 152810.
+Err  [02:45:23] Value u in AddChatPartStyle() is deprecated
+Err  [02:45:25] Value u in AddChatPartStyle() is deprecated
+     [02:45:28] Player YTSodaCan is executing command "/login 33112277yy" in world "world" at world age 152945.
+     [02:45:42] Player YTSodaCan is executing command "/arena" in world "world" at world age 153235.
+Info [02:45:42] Player YTSodaCan issued an unknown command: "/arena"
+     [02:46:46] Player YTSodaCan is executing command "/kill @a" in world "world" at world age 154501.
+     [02:46:49] Player YTSodaCan is executing command "/kill @e" in world "world" at world age 154548.
+     [02:46:51] Player YTSodaCan is executing command "/kill" in world "world" at world age 154586.
+     [02:47:01] Player YTSodaCan is executing command "/summon zombie" in world "world" at world age 154799.
+     [02:47:44] Player YTSodaCan is executing command "/give @s golden_pickaxe" in world "world" at world age 155632.
+     [02:47:50] Player YTSodaCan is executing command "/give Ytsodacan golden_pickaxe" in world "world" at world age 155770.
+     [02:47:50] [Core] YTSodaCan: Given [ goldpickaxe ] x 1 to YTSodaCan
+     [02:48:00] Player YTSodaCan is executing command "/gamemode c" in world "world" at world age 155951.
+     [02:48:00] [Core] Gamemode of YTSodaCan set to creative by: YTSodaCan
+     [02:48:35] Player YTSodaCan is executing command "/mca create test" in world "world" at world age 156651.
+     [02:48:44] Player YTSodaCan is executing command "/mca create test" in world "world" at world age 156838.
+     [02:49:04] Player YTSodaCan is executing command "/mca create test" in world "world" at world age 157225.
+     [02:49:13] Player YTSodaCan is executing command "/mca create test" in world "world" at world age 157409.
+     [02:49:19] Player YTSodaCan is executing command "/mca list" in world "world" at world age 157518.
+     [02:49:30] Player YTSodaCan is executing command "/mca join" in world "world" at world age 157737.
+     [02:49:34] Player YTSodaCan is executing command "/mca join default" in world "world" at world age 157829.
+Info [02:50:11] Player YTSodaCan has left the game
+     [02:51:14] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:51:14] Player YTSodaCan2 has joined the game
+Warn [02:51:14] AddEntity: Entity at 0x779b501863b0 (cPlayer, ID 836) spawning in a non-existent chunk.
+Err  [02:51:16] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:19] Value u in AddChatPartStyle() is deprecated
+     [02:51:20] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:51:20] Player YTSodaCan has joined the game
+Err  [02:51:22] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:22] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:24] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:25] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:27] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:27] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:29] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:30] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:32] Value u in AddChatPartStyle() is deprecated
+     [02:51:32] Player YTSodaCan is executing command "/login 33112277yy" in world "world" at world age 160162.
+Err  [02:51:34] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:37] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:38] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:39] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:42] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:42] Too much data in queue for client "YTSodaCan2" @ 0:0:0:0:0:0:0:1, kicking them.
+Info [02:51:42] Player YTSodaCan2 has left the game
+     [02:51:45] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:51:45] Player YTSodaCan2 has joined the game
+Err  [02:51:47] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:50] Value u in AddChatPartStyle() is deprecated
+     [02:51:52] Player YTSodaCan2 is executing command "/register 33112277yy 33112277yy" in world "world" at world age 160553.
+Info [02:51:52] Player YTSodaCan2 tried to execute forbidden command: "/register"
+Err  [02:51:52] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:55] Value u in AddChatPartStyle() is deprecated
+Err  [02:51:57] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:00] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:02] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:05] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:08] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:10] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:13] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:15] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:18] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:20] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:23] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:25] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:28] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:30] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:33] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:35] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:38] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:41] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:43] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:46] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:48] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:51] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:53] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:56] Value u in AddChatPartStyle() is deprecated
+Err  [02:52:58] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:01] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:03] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:06] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:08] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:11] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:13] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:16] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:19] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:21] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:24] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:26] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:29] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:31] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:34] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:36] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:39] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:41] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:44] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:46] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:49] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:51] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:54] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:57] Value u in AddChatPartStyle() is deprecated
+Err  [02:53:59] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:02] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:04] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:07] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:09] Value u in AddChatPartStyle() is deprecated
+     [02:54:09] Player YTSodaCan2 is executing command "/register 33112277yy 33112277yy" in world "world" at world age 163272.
+Info [02:54:09] Player YTSodaCan2 tried to execute forbidden command: "/register"
+Err  [02:54:12] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:14] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:17] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:19] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:22] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:24] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:27] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:30] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:32] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:35] Value u in AddChatPartStyle() is deprecated
+Info [02:54:35] Player YTSodaCan2 has left the game
+     [02:54:37] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [02:54:37] Player YTSodaCan2 has joined the game
+     [02:54:38] Player YTSodaCan2 is executing command "/register 33112277yy 33112277yy" in world "world" at world age 163846.
+Err  [02:54:39] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:42] Value u in AddChatPartStyle() is deprecated
+Err  [02:54:44] Value u in AddChatPartStyle() is deprecated
+     [02:54:46] Player YTSodaCan2 is executing command "/login 33112277yy" in world "world" at world age 163997.
+     [02:54:53] Player YTSodaCan2 is executing command "/mca join defauly" in world "world" at world age 164140.
+     [02:54:56] Player YTSodaCan2 is executing command "/mca join default" in world "world" at world age 164186.
+     [02:55:52] Player YTSodaCan is executing command "/title" in world "world" at world age 165298.
+Info [02:55:52] Player YTSodaCan issued an unknown command: "/title"
+Info [02:56:39] Player YTSodaCan2 has left the game
+Info [02:56:40] Player YTSodaCan has left the game
+     [03:05:25] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [03:05:25] Player YTSodaCan has joined the game
+Warn [03:05:25] AddEntity: Entity at 0x779b501020c0 (cPlayer, ID 1019) spawning in a non-existent chunk.
+Err  [03:05:27] Value u in AddChatPartStyle() is deprecated
+Err  [03:05:30] Value u in AddChatPartStyle() is deprecated
+Err  [03:05:32] Value u in AddChatPartStyle() is deprecated
+Err  [03:05:35] Value u in AddChatPartStyle() is deprecated
