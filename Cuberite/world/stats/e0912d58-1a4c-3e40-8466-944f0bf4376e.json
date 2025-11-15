@@ -5,20 +5,23 @@
 		"custom" : 
 		{
 			"climb_one_cm" : 25,
-			"crouch_one_cm" : 1080,
-			"damage_dealt" : 155,
-			"damage_taken" : 770,
-			"deaths" : 2,
-			"drop" : 12,
-			"fall_one_cm" : 27319,
-			"leave_game" : 7,
+			"crouch_one_cm" : 1584,
+			"cuberite:achievement.openInventory" : 2,
+			"damage_dealt" : 405,
+			"damage_taken" : 1990,
+			"deaths" : 6,
+			"drop" : 32,
+			"fall_one_cm" : 54672,
+			"interact_with_crafting_table" : 1,
+			"leave_game" : 16,
 			"mob_kills" : 1,
-			"play_one_minute" : 14169,
-			"sneak_time" : 274,
-			"sprint_one_cm" : 12172,
-			"time_since_death" : 3109,
-			"walk_on_water_one_cm" : 495,
-			"walk_one_cm" : 29465
+			"play_one_minute" : 66891,
+			"player_kills" : 1,
+			"sneak_time" : 406,
+			"sprint_one_cm" : 26249,
+			"time_since_death" : 46190,
+			"walk_on_water_one_cm" : 957,
+			"walk_one_cm" : 60625
 		}
 	}
 }

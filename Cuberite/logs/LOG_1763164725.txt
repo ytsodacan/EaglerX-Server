@@ -26,3 +26,38 @@ Info [23:58:47] WebAdmin is running on port(s) 9098
      [00:00:53] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
 Info [00:00:53] Player YTSodaCan has joined the game
 Warn [00:00:53] AddEntity: Entity at 0x724b3c0156b0 (cPlayer, ID 100) spawning in a non-existent chunk.
+Info [00:03:25] Player YTSodaCan has left the game
+     [00:03:28] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:03:28] Player YTSodaCan has joined the game
+     [00:04:37] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+     [00:04:37] Player "YTSodaCan2" (d026dcf699dc3381a745d625d7744c06) save or statistics file not found, resetting to defaults
+Info [00:04:37] Player YTSodaCan2 has joined the game
+Info [00:06:29] Player YTSodaCan has left the game
+Info [00:06:29] Player YTSodaCan2 has left the game
+     [00:09:01] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:09:01] Player YTSodaCan has joined the game
+Warn [00:09:01] AddEntity: Entity at 0x724b3c0183d0 (cPlayer, ID 339) spawning in a non-existent chunk.
+Info [00:09:28] Player YTSodaCan has left the game
+     [00:11:59] Executing console command: "who"
+     [00:11:59] Unknown command, type 'help' for all commands.
+     [00:12:08] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:12:08] Player YTSodaCan has joined the game
+     [00:12:19] Executing console command: "op YTSodaCan"
+     [00:12:19] Unknown command, type 'help' for all commands.
+     [00:12:22] Executing console command: "help"
+     [00:12:22] chunkstats      - Displays detailed chunk memory statistics
+     [00:12:22] destroyentities - Destroys all entities in all worlds
+     [00:12:22] help            - Shows the available commands
+     [00:12:22] load            - Adds and enables the specified plugin
+     [00:12:22] reload          - Reloads all plugins
+     [00:12:22] reloadweb       - Reloads the webadmin configuration
+     [00:12:22] restart         - Restarts the server cleanly
+     [00:12:22] stop            - Stops the server cleanly
+     [00:12:22] unload          - Disables the specified plugin
+Warn [00:13:35] MoveEntityToNewChunk: Entity at 0x724b6c6af0e0 (cChicken, ID 488) moving to a non-existent chunk.
+Info [00:14:12] Kicking player YTSodaCan for "Server shutdown"
+Info [00:14:12] Player YTSodaCan has left the game
+     [00:14:13] Shutting down server...
+     [00:14:14] Cleaning up...
+     [00:14:14] Shutdown successful!
+     [00:14:14] --- Stopped Log ---

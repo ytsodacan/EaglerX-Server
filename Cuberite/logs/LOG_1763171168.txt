@@ -1,0 +1,35 @@
+     [01:46:08] --- Started Log ---
+     [01:46:08] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [01:46:08] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [01:46:08] Creating new server instance...
+     [01:46:08] Reading server config...
+     [01:46:08] Starting server...
+Info [01:46:08] Compatible clients: 1.8.x-1.14.4
+Warn [01:46:08] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [01:46:08] WebServer: The server will run in unsecured HTTP mode.
+Info [01:46:08] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [01:46:08] Loaded 789 crafting recipes
+Warn [01:46:08] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [01:46:08] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [01:46:08] Loaded 1.12.2 380 recipe book
+     [01:46:08] Loaded 67 furnace recipes and 66 fuels
+     [01:46:08] Loaded 49 brewing recipes
+Warn [01:46:08] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:46:08] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [01:46:08] -- Loading Plugins --
+     [01:46:08] [Core] Core plugin fully initialized!
+Info [01:46:08] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [01:46:08] Stack trace:
+Warn [01:46:08]   [C](-1): AddHook
+Warn [01:46:08]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [01:46:08] Stack trace end
+     [01:46:08] [ChatLog] Initialized ChatLog v.3
+     [01:46:08] -- Loaded 2 Plugins --
+Warn [01:46:10] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [01:46:10] WebAdmin is running on port(s) 9098
+     [01:46:10] Startup complete, took 1871ms!
+     [01:46:10] Shutting down server...
+     [01:46:10] [Core] InfoReg plugin disabled
+     [01:46:10] Cleaning up...
+     [01:46:10] Shutdown successful!
+     [01:46:10] --- Stopped Log ---

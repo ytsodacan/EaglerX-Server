@@ -1,0 +1,66 @@
+     [01:10:59] --- Started Log ---
+     [01:10:59] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [01:10:59] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [01:10:59] Creating new server instance...
+     [01:10:59] Reading server config...
+     [01:10:59] Starting server...
+Info [01:10:59] Compatible clients: 1.8.x-1.14.4
+Warn [01:10:59] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [01:10:59] WebServer: The server will run in unsecured HTTP mode.
+Info [01:10:59] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [01:10:59] Loaded 789 crafting recipes
+Warn [01:10:59] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [01:10:59] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [01:10:59] Loaded 1.12.2 380 recipe book
+     [01:10:59] Loaded 67 furnace recipes and 66 fuels
+     [01:10:59] Loaded 49 brewing recipes
+Warn [01:10:59] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [01:10:59] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [01:10:59] -- Loading Plugins --
+     [01:10:59] [Core] Core plugin fully initialized!
+Info [01:10:59] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [01:10:59] Stack trace:
+Warn [01:10:59]   [C](-1): AddHook
+Warn [01:10:59]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [01:10:59] Stack trace end
+     [01:10:59] [ChatLog] Initialized ChatLog v.3
+     [01:10:59] -- Loaded 2 Plugins --
+     [01:11:01] Preparing spawn (world_nether): 96.25% (385/400; 384.62 chunks / sec)
+Warn [01:11:01] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [01:11:01] WebAdmin is running on port(s) 9098
+     [01:11:01] Startup complete, took 1816ms!
+     [01:11:09] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:11:09] Player YTSodaCan has joined the game
+     [01:11:39] Player YTSodaCan is executing command "/gamemode" in world "world" at world age 116595.
+Info [01:11:39] Player YTSodaCan issued an unknown command: "/gamemode"
+Info [01:13:08] Player YTSodaCan has left the game
+     [01:13:17] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:13:17] Player YTSodaCan has joined the game
+Warn [01:13:17] AddEntity: Entity at 0x79ddc8014ae0 (cPlayer, ID 229) spawning in a non-existent chunk.
+     [01:16:09] Executing console command: "reload"
+     [01:16:09] -- Loading Plugins --
+     [01:16:09] [Core] InfoReg plugin disabled
+Warn [01:16:09] LUA: Plugins/Core/main.lua:93: error in function 'BindConsoleCommand'.
+     argument #4 is 'function'; 'string' expected.
+
+Warn [01:16:09] Stack trace:
+Warn [01:16:09]   [C](-1): BindConsoleCommand
+Warn [01:16:09]   Plugins/Core/main.lua(93): (no name)
+Warn [01:16:09] Stack trace end
+Warn [01:16:09] Error in plugin Core calling function Initialize()
+Warn [01:16:09] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [01:16:09] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [01:16:09] Stack trace:
+Warn [01:16:09]   [C](-1): AddHook
+Warn [01:16:09]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [01:16:09] Stack trace end
+     [01:16:09] [ChatLog] Initialized ChatLog v.3
+     [01:16:09] -- Loaded 1 Plugin --
+     [01:16:16] Executing console command: "reload"
+     [01:16:16] -- Loading Plugins --
+     [01:16:16] [Core] Core plugin fully initialized!
+Info [01:16:16] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [01:16:16] Stack trace:
+Warn [01:16:16]   [C](-1): AddHook
+Warn [01:16:16]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [01:16:16] Stack trace end

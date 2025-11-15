@@ -1,0 +1,598 @@
+     [00:14:14] --- Started Log ---
+     [00:14:14] Cuberite Jenkins x86_64-linux-gnu -DCMAKE_BUILD_TYPE=Release (master) (id: #378)
+     [00:14:14] from commit eda440e0db028587975c867dbacb513d80df4dca built at: Mon Aug 21 11:55:04 UTC 2023
+     [00:14:14] Creating new server instance...
+     [00:14:14] Reading server config...
+     [00:14:14] Starting server...
+Info [00:14:14] Compatible clients: 1.8.x-1.14.4
+Warn [00:14:14] WARNING: There is not a Proxy Forward Secret set up, and any proxy server can forward a player to this server unless closed from the internet.
+Warn [00:14:14] WebServer: The server will run in unsecured HTTP mode.
+Info [00:14:14] Put a valid HTTPS certificate in file 'webadmin/httpscert.crt' and its corresponding private key to 'webadmin/httpskey.pem' (without any password) to enable HTTPS support
+     [00:14:14] Loaded 789 crafting recipes
+Warn [00:14:14] Cannot open file "Protocol/1.14.4/base.recipes.txt", no recipe book recipes will be available!
+Warn [00:14:14] Cannot open file "Protocol/1.13/base.recipes.txt", no recipe book recipes will be available!
+     [00:14:14] Loaded 1.12.2 380 recipe book
+     [00:14:14] Loaded 67 furnace recipes and 66 fuels
+     [00:14:14] Loaded 49 brewing recipes
+Warn [00:14:14] Invalid biome ("BambooJungle") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+Warn [00:14:14] Invalid biome ("BambooJungleHills") specified in AllowedBiomes in cubeset file Prefabs/SinglePieceStructures/JungleTemple.cubeset. Skipping the biome.
+     [00:14:14] -- Loading Plugins --
+     [00:14:14] Cannot load plugin, folder "Core" not found.
+     [00:14:14] Cannot load plugin, folder "ChatLog" not found.
+     [00:14:14] -- No Plugins Loaded --
+Warn [00:14:15] World "world_the_end": Did not find an acceptable spawnpoint. Generated a random spawnpoint position at {0, 71, 0}
+Info [00:14:15] WebAdmin is running on port(s) 9098
+     [00:14:15] Startup complete, took 1029ms!
+     [00:14:21] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:14:21] Player YTSodaCan has joined the game
+     [00:14:25] Player YTSodaCan is executing command "/who" in world "world" at world age 48415.
+Info [00:14:25] Player YTSodaCan issued an unknown command: "/who"
+     [00:14:30] Player YTSodaCan is executing command "/op" in world "world" at world age 48516.
+Info [00:14:30] Player YTSodaCan issued an unknown command: "/op"
+     [00:14:33] Player YTSodaCan is executing command "/help" in world "world" at world age 48572.
+Info [00:14:33] Player YTSodaCan issued an unknown command: "/help"
+     [00:14:53] Player YTSodaCan is executing command "/time" in world "world" at world age 48966.
+Info [00:14:53] Player YTSodaCan issued an unknown command: "/time"
+     [00:14:55] Player YTSodaCan is executing command "/give" in world "world" at world age 49012.
+Info [00:14:55] Player YTSodaCan issued an unknown command: "/give"
+     [00:15:26] Executing console command: "[YourUsername]"
+     [00:15:26] Unknown command, type 'help' for all commands.
+     [00:15:26] Executing console command: "Admin=true"
+     [00:15:26] Unknown command, type 'help' for all commands.
+     [00:15:27] Executing console command: "rUsername]"
+     [00:15:27] Unknown command, type 'help' for all commands.
+     [00:15:27] Executing console command: "Admin=true"
+     [00:15:27] Unknown command, type 'help' for all commands.
+     [00:15:29] Executing console command: "rUsername]"
+     [00:15:29] Unknown command, type 'help' for all commands.
+     [00:15:29] Executing console command: "Admin=true"
+     [00:15:29] Unknown command, type 'help' for all commands.
+     [00:16:53] Executing console command: "help"
+     [00:16:53] chunkstats      - Displays detailed chunk memory statistics
+     [00:16:53] destroyentities - Destroys all entities in all worlds
+     [00:16:53] help            - Shows the available commands
+     [00:16:53] load            - Adds and enables the specified plugin
+     [00:16:53] reload          - Reloads all plugins
+     [00:16:53] reloadweb       - Reloads the webadmin configuration
+     [00:16:53] restart         - Restarts the server cleanly
+     [00:16:53] stop            - Stops the server cleanly
+     [00:16:53] unload          - Disables the specified plugin
+Info [00:17:32] Player YTSodaCan has left the game
+     [00:18:20] Executing console command: "rank"
+     [00:18:20] Unknown command, type 'help' for all commands.
+     [00:21:39] Executing console command: "reload"
+     [00:21:39] -- Loading Plugins --
+Warn [00:21:39] LUA: cannot open Plugins/InfoReg.lua: No such file or directory
+Warn [00:21:39] Stack trace:
+Warn [00:21:39]   [C](-1): dofile
+Warn [00:21:39]   Plugins/Core/main.lua(26): (no name)
+Warn [00:21:39] Stack trace end
+Warn [00:21:39] Error in plugin Core calling function Initialize()
+Warn [00:21:39] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [00:21:39] Cannot load plugin, folder "ChatLog" not found.
+     [00:21:39] -- No Plugins Loaded --
+     [00:25:12] Executing console command: "reload"
+     [00:25:12] -- Loading Plugins --
+Warn [00:25:12] LUA: cannot open Plugins/InfoReg.lua: No such file or directory
+Warn [00:25:12] Stack trace:
+Warn [00:25:12]   [C](-1): dofile
+Warn [00:25:12]   Plugins/Core/main.lua(26): (no name)
+Warn [00:25:12] Stack trace end
+Warn [00:25:12] Error in plugin Core calling function Initialize()
+Warn [00:25:12] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [00:25:12] Cannot load plugin, folder "ChatLog" not found.
+     [00:25:12] -- No Plugins Loaded --
+     [00:25:22] Executing console command: "[A"
+     [00:25:22] Unknown command, type 'help' for all commands.
+     [00:25:25] Executing console command: "reload"
+     [00:25:25] -- Loading Plugins --
+Warn [00:25:25] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:25:25] Stack trace:
+Warn [00:25:25]   Plugins/Core/main.lua(27): (no name)
+Warn [00:25:25] Stack trace end
+Warn [00:25:25] Error in plugin Core calling function Initialize()
+Warn [00:25:25] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [00:25:25] Cannot load plugin, folder "ChatLog" not found.
+     [00:25:25] -- No Plugins Loaded --
+     [00:27:35] Executing console command: "[A[B"
+     [00:27:35] Unknown command, type 'help' for all commands.
+     [00:27:37] Executing console command: "reload"
+     [00:27:37] -- Loading Plugins --
+Warn [00:27:37] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:27:37] Stack trace:
+Warn [00:27:37]   Plugins/Core/main.lua(27): (no name)
+Warn [00:27:37] Stack trace end
+Warn [00:27:37] Error in plugin Core calling function Initialize()
+Warn [00:27:37] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [00:27:37] Cannot load plugin, folder "ChatLog" not found.
+     [00:27:37] -- No Plugins Loaded --
+     [00:28:35] Executing console command: "[A"
+     [00:28:35] Unknown command, type 'help' for all commands.
+     [00:28:38] Executing console command: "reload"
+     [00:28:38] -- Loading Plugins --
+Warn [00:28:38] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:28:38] Stack trace:
+Warn [00:28:38]   Plugins/Core/main.lua(27): (no name)
+Warn [00:28:38] Stack trace end
+Warn [00:28:38] Error in plugin Core calling function Initialize()
+Warn [00:28:38] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+     [00:28:38] Cannot load plugin, folder "ChatLog" not found.
+     [00:28:38] -- No Plugins Loaded --
+     [00:30:03] Executing console command: "reload"
+     [00:30:03] -- Loading Plugins --
+Warn [00:30:03] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:30:03] Stack trace:
+Warn [00:30:03]   Plugins/Core/main.lua(27): (no name)
+Warn [00:30:03] Stack trace end
+Warn [00:30:03] Error in plugin Core calling function Initialize()
+Warn [00:30:03] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:30:03] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:30:03] Stack trace:
+Warn [00:30:03]   [C](-1): AddHook
+Warn [00:30:03]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:30:03] Stack trace end
+     [00:30:03] [ChatLog] Initialized ChatLog v.3
+     [00:30:03] -- Loaded 1 Plugin --
+     [00:31:17] Executing console command: "reload"
+     [00:31:17] -- Loading Plugins --
+Err  [00:31:17] Error (2) opening directory "Plugins/Core/"
+
+Warn [00:31:17] No lua files found: plugin Core is missing.
+Info [00:31:17] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:31:17] Stack trace:
+Warn [00:31:17]   [C](-1): AddHook
+Warn [00:31:17]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:31:17] Stack trace end
+     [00:31:17] [ChatLog] Initialized ChatLog v.3
+     [00:31:17] -- Loaded 1 Plugin --
+     [00:31:32] Executing console command: "reload"
+     [00:31:32] -- Loading Plugins --
+Warn [00:31:32] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:31:32] Stack trace:
+Warn [00:31:32]   Plugins/Core/main.lua(27): (no name)
+Warn [00:31:32] Stack trace end
+Warn [00:31:32] Error in plugin Core calling function Initialize()
+Warn [00:31:32] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:31:32] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:31:32] Stack trace:
+Warn [00:31:32]   [C](-1): AddHook
+Warn [00:31:32]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:31:32] Stack trace end
+     [00:31:32] [ChatLog] Initialized ChatLog v.3
+     [00:31:32] -- Loaded 1 Plugin --
+     [00:33:45] Executing console command: "reload"
+     [00:33:45] -- Loading Plugins --
+Warn [00:33:45] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:33:45] Stack trace:
+Warn [00:33:45]   Plugins/Core/main.lua(27): (no name)
+Warn [00:33:45] Stack trace end
+Warn [00:33:45] Error in plugin Core calling function Initialize()
+Warn [00:33:45] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:33:45] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:33:45] Stack trace:
+Warn [00:33:45]   [C](-1): AddHook
+Warn [00:33:45]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:33:45] Stack trace end
+     [00:33:45] [ChatLog] Initialized ChatLog v.3
+     [00:33:45] -- Loaded 1 Plugin --
+     [00:36:18] Executing console command: "reload"
+     [00:36:18] -- Loading Plugins --
+     [00:36:18] [Core] Plugin commands registered
+Warn [00:36:18] LUA: Plugins/InfoReg.lua:40: error in function 'BindConsoleCommand'.
+     argument #4 is 'function'; 'string' expected.
+
+Warn [00:36:18] Stack trace:
+Warn [00:36:18]   [C](-1): BindConsoleCommand
+Warn [00:36:18]   Plugins/InfoReg.lua(40): RegisterPluginInfoConsoleCommands
+Warn [00:36:18]   Plugins/Core/main.lua(28): (no name)
+Warn [00:36:18] Stack trace end
+Warn [00:36:18] Error in plugin Core calling function Initialize()
+Warn [00:36:18] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:36:18] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:36:18] Stack trace:
+Warn [00:36:18]   [C](-1): AddHook
+Warn [00:36:18]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:36:18] Stack trace end
+     [00:36:18] [ChatLog] Initialized ChatLog v.3
+     [00:36:18] -- Loaded 1 Plugin --
+     [00:36:34] Executing console command: "op"
+     [00:36:34] Unknown command, type 'help' for all commands.
+     [00:37:56] Executing console command: "reload"
+     [00:37:56] -- Loading Plugins --
+     [00:37:56] [Core] In-game commands registered by InfoReg.lua
+Warn [00:37:56] LUA: Plugins/InfoReg.lua:61: error in function 'BindConsoleCommand'.
+     argument #4 is 'function'; 'string' expected.
+
+Warn [00:37:56] Stack trace:
+Warn [00:37:56]   [C](-1): BindConsoleCommand
+Warn [00:37:56]   Plugins/InfoReg.lua(61): RegisterPluginInfoConsoleCommands
+Warn [00:37:56]   Plugins/Core/main.lua(28): (no name)
+Warn [00:37:56] Stack trace end
+Warn [00:37:56] Error in plugin Core calling function Initialize()
+Warn [00:37:56] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:37:56] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:37:56] Stack trace:
+Warn [00:37:56]   [C](-1): AddHook
+Warn [00:37:56]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:37:56] Stack trace end
+     [00:37:56] [ChatLog] Initialized ChatLog v.3
+     [00:37:56] -- Loaded 1 Plugin --
+     [00:38:04] Executing console command: "reload"
+     [00:38:04] -- Loading Plugins --
+     [00:38:04] [Core] In-game commands registered by InfoReg.lua
+Warn [00:38:04] LUA: Plugins/InfoReg.lua:61: error in function 'BindConsoleCommand'.
+     argument #4 is 'function'; 'string' expected.
+
+Warn [00:38:04] Stack trace:
+Warn [00:38:04]   [C](-1): BindConsoleCommand
+Warn [00:38:04]   Plugins/InfoReg.lua(61): RegisterPluginInfoConsoleCommands
+Warn [00:38:04]   Plugins/Core/main.lua(28): (no name)
+Warn [00:38:04] Stack trace end
+Warn [00:38:04] Error in plugin Core calling function Initialize()
+Warn [00:38:04] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:38:04] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:38:04] Stack trace:
+Warn [00:38:04]   [C](-1): AddHook
+Warn [00:38:04]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:38:04] Stack trace end
+     [00:38:04] [ChatLog] Initialized ChatLog v.3
+     [00:38:04] -- Loaded 1 Plugin --
+     [00:39:18] Executing console command: "reload"
+     [00:39:18] -- Loading Plugins --
+Warn [00:39:18] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:39:18] Stack trace:
+Warn [00:39:18]   Plugins/Core/main.lua(27): (no name)
+Warn [00:39:18] Stack trace end
+Warn [00:39:18] Error in plugin Core calling function Initialize()
+Warn [00:39:18] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:39:18] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:39:18] Stack trace:
+Warn [00:39:18]   [C](-1): AddHook
+Warn [00:39:18]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:39:18] Stack trace end
+     [00:39:18] [ChatLog] Initialized ChatLog v.3
+     [00:39:18] -- Loaded 1 Plugin --
+     [00:40:33] Executing console command: "reload"
+     [00:40:33] -- Loading Plugins --
+Warn [00:40:33] LUA: Plugins/Core/main.lua:27: error in function 'GetPluginsPath'.
+     argument #1 is 'cPluginManager'; 'cPluginManager' expected.
+
+Warn [00:40:33] Stack trace:
+Warn [00:40:33]   [C](-1): GetPluginsPath
+Warn [00:40:33]   Plugins/Core/main.lua(27): (no name)
+Warn [00:40:33] Stack trace end
+Warn [00:40:33] Error in plugin Core calling function Initialize()
+Warn [00:40:33] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:40:33] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:40:33] Stack trace:
+Warn [00:40:33]   [C](-1): AddHook
+Warn [00:40:33]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:40:33] Stack trace end
+     [00:40:33] [ChatLog] Initialized ChatLog v.3
+     [00:40:33] -- Loaded 1 Plugin --
+     [00:43:53] Executing console command: "reload"
+     [00:43:53] -- Loading Plugins --
+Warn [00:43:53] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:43:53] Stack trace:
+Warn [00:43:53]   Plugins/Core/main.lua(27): (no name)
+Warn [00:43:53] Stack trace end
+Warn [00:43:53] Error in plugin Core calling function Initialize()
+Warn [00:43:53] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:43:53] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:43:53] Stack trace:
+Warn [00:43:53]   [C](-1): AddHook
+Warn [00:43:53]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:43:53] Stack trace end
+     [00:43:53] [ChatLog] Initialized ChatLog v.3
+     [00:43:53] -- Loaded 1 Plugin --
+     [00:44:12] Executing console command: "reload"
+     [00:44:12] -- Loading Plugins --
+Warn [00:44:12] LUA: Plugins/Core/main.lua:27: attempt to call global 'RegisterPluginInfoCommands' (a nil value)
+Warn [00:44:12] Stack trace:
+Warn [00:44:12]   Plugins/Core/main.lua(27): (no name)
+Warn [00:44:12] Stack trace end
+Warn [00:44:12] Error in plugin Core calling function Initialize()
+Warn [00:44:12] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [00:44:12] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:44:12] Stack trace:
+Warn [00:44:12]   [C](-1): AddHook
+Warn [00:44:12]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:44:12] Stack trace end
+     [00:44:12] [ChatLog] Initialized ChatLog v.3
+     [00:44:12] -- Loaded 1 Plugin --
+     [00:45:16] Executing console command: "reload"
+     [00:45:16] -- Loading Plugins --
+Warn [00:45:16] Can't load plugin Core because of an initialization error in file Plugins/Core/main.lua: 2 (Plugins/Core/main.lua:5: error in function 'GetPluginsPath'.
+     argument #1 is 'cPluginManager'; 'cPluginManager' expected.
+)
+Info [00:45:16] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:45:16] Stack trace:
+Warn [00:45:16]   [C](-1): AddHook
+Warn [00:45:16]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:45:16] Stack trace end
+     [00:45:16] [ChatLog] Initialized ChatLog v.3
+     [00:45:16] -- Loaded 1 Plugin --
+     [00:46:55] Executing console command: "reload"
+     [00:46:55] -- Loading Plugins --
+Warn [00:46:55] Can't load plugin Core because of an initialization error in file Plugins/Core/main.lua: 2 (Plugins/Core/main.lua:5: error in function 'GetPluginsPath'.
+     argument #1 is 'cPluginManager'; 'cPluginManager' expected.
+)
+Info [00:46:55] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:46:55] Stack trace:
+Warn [00:46:55]   [C](-1): AddHook
+Warn [00:46:55]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:46:55] Stack trace end
+     [00:46:55] [ChatLog] Initialized ChatLog v.3
+     [00:46:55] -- Loaded 1 Plugin --
+     [00:47:20] Executing console command: "-- main.lua"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "-- Core plugin main entrypoint"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "local pm = cPluginManager:Get()"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "local pluginPath = pm:GetPluginsPath()"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "function Initialize(Plugin)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "Plugin:SetName(g_PluginInfo.Name)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "-- Register hooks using plugin manager instance"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "local hooks = {"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_BLOCK_SPREAD,          OnBlockSpread},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_CHAT,                  OnChat},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_CRAFTING_NO_RECIPE,    OnCraftingNoRecipe},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_DESTROYED,      OnDisconnect},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_EXPLODING,             OnExploding},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_KILLING,               OnKilling},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_BREAKING_BLOCK, OnPlayerBreakingBlock},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_JOINED,         OnPlayerJoined},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_JOINED,         OnPlayerJoined_WebChat},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_MOVING,         OnPlayerMoving},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_PLACING_BLOCK,  OnPlayerPlacingBlock},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_PLAYER_RIGHT_CLICK,    OnPlayerRightClick},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_SPAWNING_MONSTER,      OnSpawningMonster},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_TAKE_DAMAGE,           OnTakeDamage},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_TICK,                  OnTick},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "{cPluginManager.HOOK_WORLD_TICK,            OnWorldTick},"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "}"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "for _, h in ipairs(hooks) do"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "pm:AddHook(h[1], h[2])"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "-- Load InfoReg.lua safely and register commands"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "local infoRegFile = pluginPath .. "/InfoReg.lua""
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "if io.open(infoRegFile, "r") then"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "dofile(infoRegFile)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "if type(RegisterPluginInfoCommands) == "function" then"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "RegisterPluginInfoCommands()"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "if type(RegisterPluginInfoConsoleCommands) == "function" then"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "RegisterPluginInfoConsoleCommands()"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "else"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "LOG("InfoReg.lua not found: " .. infoRegFile)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "-- Load world settings safely"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "if type(LoadWorldSettings) == "function" then"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "cRoot:Get():ForEachWorld(function(World)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "LoadWorldSettings(World)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "end)"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "-- Initialize banlist, whitelist, item blacklist"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "if type(InitializeBanlist) == "function" then InitializeBanlist() end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:20] Executing console command: "if type(InitializeWhitelist) == "function" then InitializeWhitelist() end"
+     [00:47:20] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "if type(InitializeItemBlacklist) == "function" then InitializeItemBlacklist(Plugin) end"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "-- WebAdmin tabs"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "if cWebAdmin then"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "local tabs = {"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Manage Server",   "manage-server",   HandleRequest_ManageServer},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Server Settings", "server-settings", HandleRequest_ServerSettings},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Chat",            "chat",            HandleRequest_Chat},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Players",         "players",         HandleRequest_Players},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Whitelist",       "whitelist",       HandleRequest_WhiteList},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Permissions",     "permissions",     HandleRequest_Permissions},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Plugins",         "plugins",         HandleRequest_ManagePlugins},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Time & Weather",  "time-weather",    HandleRequest_Weather},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Ranks",           "ranks",           HandleRequest_Ranks},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "{"Player Ranks",    "player-ranks",    HandleRequest_PlayerRanks},"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "}"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "for _, t in ipairs(tabs) do"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "cWebAdmin:AddWebTab(t[1], t[2], t[3])"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "end"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "end"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "-- Load MOTD"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "if type(LoadMOTD) == "function" then LoadMOTD() end"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "WEBLOGINFO("Core is initialised")"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "LOG("Core plugin fully initialized!")"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "return true"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "end"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "function OnDisable()"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "LOG("Core plugin disabled")"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:21] Executing console command: "end"
+     [00:47:21] Unknown command, type 'help' for all commands.
+     [00:47:24] Executing console command: "reload"
+     [00:47:24] -- Loading Plugins --
+Warn [00:47:24] Can't load plugin Core because of an initialization error in file Plugins/Core/main.lua: 2 (Plugins/Core/main.lua:5: error in function 'GetPluginsPath'.
+     argument #1 is 'cPluginManager'; 'cPluginManager' expected.
+)
+Info [00:47:24] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:47:24] Stack trace:
+Warn [00:47:24]   [C](-1): AddHook
+Warn [00:47:24]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:47:24] Stack trace end
+     [00:47:24] [ChatLog] Initialized ChatLog v.3
+     [00:47:24] -- Loaded 1 Plugin --
+     [00:48:35] Executing console command: "reload"
+     [00:48:35] -- Loading Plugins --
+Warn [00:48:35] Can't load plugin Core because of an initialization error in file Plugins/Core/main.lua: 2 (Plugins/Core/main.lua:5: error in function 'GetPluginsPath'.
+     argument #1 is 'cPluginManager'; 'cPluginManager' expected.
+)
+Info [00:48:35] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:48:35] Stack trace:
+Warn [00:48:35]   [C](-1): AddHook
+Warn [00:48:35]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:48:35] Stack trace end
+     [00:48:35] [ChatLog] Initialized ChatLog v.3
+     [00:48:35] -- Loaded 1 Plugin --
+     [00:49:14] Executing console command: "reload"
+     [00:49:14] -- Loading Plugins --
+     [00:49:14] [Core] Core plugin fully initialized!
+Info [00:49:14] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:49:14] Stack trace:
+Warn [00:49:14]   [C](-1): AddHook
+Warn [00:49:14]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:49:14] Stack trace end
+     [00:49:14] [ChatLog] Initialized ChatLog v.3
+     [00:49:14] -- Loaded 2 Plugins --
+     [00:49:26] Executing console command: "op"
+     [00:49:26] Unknown command, type 'help' for all commands.
+     [00:49:28] Executing console command: "help"
+     [00:49:28] chunkstats      - Displays detailed chunk memory statistics
+     [00:49:28] destroyentities - Destroys all entities in all worlds
+     [00:49:28] help            - Shows the available commands
+     [00:49:28] load            - Adds and enables the specified plugin
+     [00:49:28] reload          - Reloads all plugins
+     [00:49:28] reloadweb       - Reloads the webadmin configuration
+     [00:49:28] restart         - Restarts the server cleanly
+     [00:49:28] stop            - Stops the server cleanly
+     [00:49:28] unload          - Disables the specified plugin
+     [00:49:36] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [00:49:36] Player YTSodaCan has joined the game
+Warn [00:49:36] AddEntity: Entity at 0x724b6434ee80 (cPlayer, ID 716) spawning in a non-existent chunk.
+     [00:49:43] Player YTSodaCan is executing command "/op" in world "world" at world age 90672.
+Info [00:49:43] Player YTSodaCan issued an unknown command: "/op"
+     [00:49:52] Player YTSodaCan is executing command "/summon" in world "world" at world age 90853.
+Info [00:49:52] Player YTSodaCan issued an unknown command: "/summon"
+     [00:50:34] Player YTSodaCan is executing command "/time set day" in world "world" at world age 91689.
+Info [00:50:34] Player YTSodaCan issued an unknown command: "/time set day"
+     [00:51:22] Executing console command: "Core"
+     [00:51:22] Unknown command, type 'help' for all commands.
+     [00:51:25] Executing console command: "load Core"
+     [00:51:25] Plugin loaded
+     [00:55:45] Executing console command: "reload"
+     [00:55:45] -- Loading Plugins --
+     [00:55:45] [Core] InfoReg plugin disabled
+     [00:55:45] [Core] Core plugin fully initialized!
+Info [00:55:45] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [00:55:45] Stack trace:
+Warn [00:55:45]   [C](-1): AddHook
+Warn [00:55:45]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [00:55:45] Stack trace end
+     [00:55:45] [ChatLog] Initialized ChatLog v.3
+     [00:55:45] -- Loaded 2 Plugins --
+     [01:06:12] Player YTSodaCan is executing command "/time set day" in world "world" at world age 110242.
+Info [01:06:12] Player YTSodaCan issued an unknown command: "/time set day"
+     [01:06:33] [Core] Time set to day in world
+     [01:06:38] [Core] Time set to midnight in world_the_end
+     [01:06:40] [Core] Time set to midnight in world
+     [01:06:41] [Core] Time set to dawn in world
+     [01:06:52] Player YTSodaCan is executing command "/help" in world "world" at world age 111037.
+Info [01:06:52] Player YTSodaCan issued an unknown command: "/help"
+     [01:09:02] Executing console command: "reload"
+     [01:09:03] -- Loading Plugins --
+     [01:09:03] [Core] InfoReg plugin disabled
+Warn [01:09:03] LUA: Plugins/Core/main.lua:82: error in function 'BindCommand'.
+     argument #5 is '[no object]'; 'string' expected.
+
+Warn [01:09:03] Stack trace:
+Warn [01:09:03]   [C](-1): BindCommand
+Warn [01:09:03]   Plugins/Core/main.lua(82): (no name)
+Warn [01:09:03] Stack trace end
+Warn [01:09:03] Error in plugin Core calling function Initialize()
+Warn [01:09:03] Error in plugin Core: Cannot call the Initialize() function. Plugin is temporarily disabled.
+Info [01:09:03] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [01:09:03] Stack trace:
+Warn [01:09:03]   [C](-1): AddHook
+Warn [01:09:03]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [01:09:03] Stack trace end
+     [01:09:03] [ChatLog] Initialized ChatLog v.3
+     [01:09:03] -- Loaded 1 Plugin --
+     [01:09:10] Executing console command: "reload"
+     [01:09:10] -- Loading Plugins --
+     [01:09:10] [Core] Core plugin fully initialized!
+Info [01:09:10] cPluginManager.AddHook(): Deprecated format used, use cPluginManager.AddHook(HOOK_TYPE, CallbackFunction) instead. Fixing the call for you.
+Warn [01:09:10] Stack trace:
+Warn [01:09:10]   [C](-1): AddHook
+Warn [01:09:10]   Plugins/ChatLog/plugin.lua(16): (no name)
+Warn [01:09:10] Stack trace end
+     [01:09:10] [ChatLog] Initialized ChatLog v.3
+     [01:09:10] -- Loaded 2 Plugins --
+Info [01:09:18] Player YTSodaCan has left the game
+     [01:09:33] A player connected through a proxy without requiring a forwarding secret. If open to the internet, this is very insecure!
+Info [01:09:33] Player YTSodaCan has joined the game
+Info [01:10:10] Player YTSodaCan has left the game
+     [01:10:52] Shutting down server...
+     [01:10:52] [Core] InfoReg plugin disabled
+     [01:10:52] Cleaning up...
+     [01:10:52] Shutdown successful!
+     [01:10:52] --- Stopped Log ---
